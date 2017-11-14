@@ -1,0 +1,107 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{B{\o}}{2009}]{Bo2009}
+B{\o}, T. (2009).
+\newblock {En veileder basert p{\aa} praktiske erfaringer fra Telemark og
+  Vestfold}.
+
+\bibitem[\protect\astroncite{Garcia-Garcia et~al.}{2017}]{Garcia-Garcia2017}
+Garcia-Garcia, A., Orts-Escolano, S., Oprea, S., Villena-Martinez, V., and
+  Garcia-Rodriguez, J. (2017).
+\newblock {A Review on Deep Learning Techniques Applied to Semantic
+  Segmentation}.
+\newblock pages 1--23.
+
+\bibitem[\protect\astroncite{He et~al.}{2015}]{He2015}
+He, K., Zhang, X., Ren, S., and Sun, J. (2015).
+\newblock {Deep Residual Learning for Image Recognition}.
+\newblock {\em Multimedia Tools and Applications}, pages 1--17.
+
+\bibitem[\protect\astroncite{Karpathy}{}]{Li}
+Karpathy, A.
+\newblock {CS231n Convolutional Neural Networks for Visual Recognition}.
+
+\bibitem[\protect\astroncite{Krizhevsky et~al.}{2012}]{Krizhevsky2012}
+Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2012).
+\newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
+\newblock {\em Advances In Neural Information Processing Systems}, pages 1--9.
+
+\bibitem[\protect\astroncite{Long et~al.}{2014}]{Long2014}
+Long, J., Shelhamer, E., and Darrell, T. (2014).
+\newblock {Fully Convolutional Networks for Semantic Segmentation}.
+
+\bibitem[\protect\astroncite{{PASCAL VOC}}{2012}]{PASCALVOC2012}
+{PASCAL VOC} (2012).
+\newblock {PASCAL VOC2011}.
+
+\bibitem[\protect\astroncite{Patterson and Gibson}{2017}]{Patterson2017}
+Patterson, J. and Gibson, A. (2017).
+\newblock {\em {Deep Learning: A Practitioner's Approach}}.
+\newblock O'Reilly Media.
+
+\bibitem[\protect\astroncite{planregister}{2009}]{Kommunaltplanregister2009}
+planregister, K. (2009).
+\newblock {{\S} 2-2. Kommunalt planregister}.
+
+\bibitem[\protect\astroncite{PowerTRACE}{2016}]{powertrace2016}
+PowerTRACE (2016).
+\newblock {Taking Corel PowerTRACE for a Test Drive – Knowledge Base}.
+
+\bibitem[\protect\astroncite{Russakovsky et~al.}{2015}]{Russakovsky2015}
+Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
+  Karpathy, A., Khosla, A., Bernstein, M., Berg, A.~C., and Fei-Fei, L. (2015).
+\newblock {ImageNet Large Scale Visual Recognition Challenge}.
+\newblock {\em International Journal of Computer Vision}, 115(3):211--252.
+
+\bibitem[\protect\astroncite{Sabour et~al.}{2017}]{Sabour2017}
+Sabour, S., Frosst, N., and Hinton, G. (2017).
+\newblock {Dynamic Routing between Capsules}.
+\newblock {\em Nips}, (Nips).
+
+\bibitem[\protect\astroncite{Scan2cad}{2009}]{scan2cad2009}
+Scan2cad (2009).
+\newblock {Scan2CAD in Landscape Architecture}.
+
+\bibitem[\protect\astroncite{Simonyan and Zisserman}{2014}]{Simonyan2014a}
+Simonyan, K. and Zisserman, A. (2014).
+\newblock {Very Deep Convolutional Networks for Large-Scale Image Recognition}.
+\newblock pages 1--14.
+
+\bibitem[\protect\astroncite{Srivastava et~al.}{2014}]{Srivastava2014}
+Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., and Salakhutdinov,
+  R. (2014).
+\newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
+\newblock {\em Journal of Machine Learning Research}, 15:1929--1958.
+
+\bibitem[\protect\astroncite{Szegedy et~al.}{2014}]{Szegedy2014}
+Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D.,
+  Vanhoucke, V., Rabinovich, A., Hill, C., and Arbor, A. (2014).
+\newblock {Going Deeper with Convolutions}.
+\newblock pages 1--9.
+
+\bibitem[\protect\astroncite{Visin et~al.}{2015}]{Visin2015}
+Visin, F., Kastner, K., Cho, K., Matteucci, M., Courville, A., and Bengio, Y.
+  (2015).
+\newblock {ReNet: A Recurrent Neural Network Based Alternative to Convolutional
+  Networks}.
+\newblock pages 1--9.
+
+\bibitem[\protect\astroncite{Worboys}{2003}]{Worboys2003}
+Worboys, M.~F. (2003).
+\newblock {\em {GIS: A computing perspective}}.
+
+\bibitem[\protect\astroncite{Zangeneh et~al.}{2011}]{Zangeneh2011}
+Zangeneh, M., Omid, M., and Akram, A. (2011).
+\newblock {A comparative study between parametric and artificial neural
+  networks approaches for economical assessment of potato production in Iran}.
+\newblock {\em Instituto Nacional de Investigaci{\'{o}}n y Tecnolog{\'{i}}a
+  Agraria y Alimentaria (INIA) Spanish Journal of Agricultural Research},
+  9(3):661--671.
+
+\bibitem[\protect\astroncite{Zeiler et~al.}{2011}]{Zeiler2011}
+Zeiler, M.~D., Taylor, G.~W., and Fergus, R. (2011).
+\newblock {Adaptive Deconvolutional Networks for Mid and High Level Feature
+  Learning}.
+\newblock pages 2018--2025.
+
+\end{thebibliography}

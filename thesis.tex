@@ -1,0 +1,64 @@
+% !TEX encoding = UTF-8 Unicode
+% !TEX spellcheck = en-US
+
+
+% This is the root file of your thesis: thesis.tex
+% A line starting with % is a comment. In some cases, I have included a command preceded by a %. You may activate the command by removing the %.
+
+%%===================================
+\documentclass[12pt]{report}
+\usepackage{ramsstyle}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{float}
+%%===================================
+%Write the various parts of your thesis as separate files and include them into the main file by the command \include{name of included file}. When you compile the LaTeX file, you may choose which subfiles to include by the command
+
+%\includeonly{chapter01,chapter02}
+
+%%===================================
+\begin{document}
+\include{front} % This is the titlepage
+\setcounter{page}{0}
+\pagenumbering{roman}
+\include{preface}
+\include{acknowledgment}
+\include{summary}
+\tableofcontents
+\setcounter{page}{0}
+\pagenumbering{arabic}
+
+% Better image captions with source.
+\newcommand*{\captionsource}[2]{%
+	\caption[{#1}]{%
+		#1%
+		\\\hspace{\linewidth}%
+		Source: #2%
+	}%
+}
+
+
+\include{chapters/intro}
+\input{chapters/motivation}
+\input{chapters/vectorization}
+\input{chapters/semantic_segmentation}
+\input{chapters/previouswork-segmentation}
+\input{chapters/discussion}
+\input{chapters/conclusion}
+
+% Include more chapters as required.
+%%=========================================
+\appendix
+\include{acronyms}
+\include{appendix-b}
+% Include more appendices as required.
+%%=========================================
+\bibliographystyle{apa}
+\addcontentsline{toc}{chapter}{\bibname}
+\bibliography{library}  
+%%=========================================
+%\include{vitae}         % Your curriculum Vitae     
+%%=============================================
+
+\end{document}
