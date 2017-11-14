@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Badrinarayanan et~al.}{2015}]{Badrinarayanan2015}
+Badrinarayanan, V., Kendall, A., and Cipolla, R. (2015).
+\newblock {SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image
+  Segmentation}.
+\newblock pages 1--14.
+
 \bibitem[\protect\astroncite{B{\o}}{2009}]{Bo2009}
 B{\o}, T. (2009).
 \newblock {En veileder basert p{\aa} praktiske erfaringer fra Telemark og

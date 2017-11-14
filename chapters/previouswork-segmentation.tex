@@ -78,11 +78,11 @@ Many of the previous network architectures described in \autoref{sec:important-a
 
 
 \subsection{FCN}
-Fully Convolutional Network (FCN) by \citeauthor{Long2014} \cite{Long2014} can be seen as a common forerunner for semantic segmentation with convolutional networks \cite{Garcia-Garcia2017}. FCN adopted the contemporary deep classification nets AlexNet, VGG and GoogLeNet architectures we saw in \autoref{sec:important-architectures} to make dense predictions at the pixel level. It is important to note that they not only reused the architecture but used the pre-trained classification models as a starting point. The network replaced the fully-connected layers with convolutional ones, noting that the fully-connected layers could be seen as convolutional ones with kernels (filters) that cover the entire input region. This allowed segmentation maps to be generated from images of any size. Because of all the pooling operations in CNNs, a technique called \emph{deconvolution} \cite{Zeiler2011} was used to upsample the coarse output to dense pixels. Deconvolutional layers can learn interpolation functions the same way the network learns weights. Skip connections similar to the ones we saw in ResNet, are also included to give the deeper layers higher resolution feature maps.
+Fully Convolutional Network (FCN) by \citeauthor{Long2014} \cite{Long2014} can be seen as a common forerunner for semantic segmentation with convolutional networks \cite{Garcia-Garcia2017}. FCN adopted the contemporary deep classification nets AlexNet, VGG and GoogLeNet architectures we saw in \autoref{sec:important-architectures} to make dense predictions at the pixel level. It is important to note that they not only reused the architecture but used the pre-trained classification models as a starting point. The network replaced the fully-connected layers with convolutional ones, noting that the fully-connected layers could be seen as convolutional ones with kernels (filters) that cover the entire input region. This allowed segmentation maps to be generated from images of any size. Because of all the pooling operations in CNNs, a technique called \emph{deconvolution} \cite{Zeiler2011} was used to upsample the coarse output to dense pixels. Deconvolutional layers can learn interpolation functions the same way the network learns weights. Skip connections similar to the ones we saw in ResNet, are also included to give the deeper layers higher resolution feature maps. 
 
 
 \subsection{SegNet}
-
+SegNet by \citeauthor{Badrinarayanan2015} \cite{Badrinarayanan2015}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.14)  14 NOV 2017 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.14)  14 NOV 2017 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,7 +1124,7 @@ Chapter 1.
 
 ] (./chapters/motivation.tex
 Chapter 2.
-<fig/eksempel_plan.pdf, id=191, pagebox=cropbox, 2389.92876pt x 2389.92876pt>
+<fig/eksempel_plan.pdf, id=196, pagebox=cropbox, 2389.92876pt x 2389.92876pt>
 File: fig/eksempel_plan.pdf Graphic file (type pdf)
 <use fig/eksempel_plan.pdf>
 Package pdftex.def Info: fig/eksempel_plan.pdf  used on input line 17. on input
@@ -1142,7 +1142,7 @@ Package pdftex.def Info: Requested size: 377.62642pt x 377.6192pt on input line
 l.1 \chapter
             {Vectorization}\label{chp:vectorization} <./fig/eksempel_plan.pdf>]
 Chapter 3.
-<fig/rastervector.png, id=209, 972.63374pt x 507.39563pt>
+<fig/rastervector.png, id=214, 972.63374pt x 507.39563pt>
 File: fig/rastervector.png Graphic file (type png)
 <use fig/rastervector.png>
 Package pdftex.def Info: fig/rastervector.png  used on input line 8. on input l
@@ -1166,7 +1166,7 @@ d
 l.1 \chapter
             {Image segmentation with Deep Learning} <./fig/rastervector.png>]
 Chapter 4.
-<fig/se.png, id=224, 1132.98282pt x 250.68657pt>
+<fig/se.png, id=229, 1132.98282pt x 250.68657pt>
 File: fig/se.png Graphic file (type png)
 <use fig/se.png>
 Package pdftex.def Info: fig/se.png  used on input line 12. on input line 12.
@@ -1175,7 +1175,7 @@ Package pdftex.def Info: Requested size: 377.62642pt x 83.55305pt on input line
 [7
 
 ]
-<fig/feedforward-neural-network.png, id=235, 589.4522pt x 406.51875pt>
+<fig/feedforward-neural-network.png, id=240, 589.4522pt x 406.51875pt>
 File: fig/feedforward-neural-network.png Graphic file (type png)
 <use fig/feedforward-neural-network.png>
 Package pdftex.def Info: fig/feedforward-neural-network.png  used on input line
@@ -1195,7 +1195,7 @@ l.34
                                                   \fi \fi 
 l.34 
       <./fig/se.png> <./fig/feedforward-neural-network.png>]
-<fig/artificial-neuron.png, id=249, 1117.92656pt x 282.30469pt>
+<fig/artificial-neuron.png, id=254, 1117.92656pt x 282.30469pt>
 File: fig/artificial-neuron.png Graphic file (type png)
 <use fig/artificial-neuron.png>
 Package pdftex.def Info: fig/artificial-neuron.png  used on input line 38. on i
@@ -1209,7 +1209,7 @@ e 38.
                                                   \fi \fi 
 l.60 \begin{equation}
                       <./fig/artificial-neuron.png>] [10] [11]
-<fig/overfit-underfit.png, id=289, 1011.78pt x 361.35pt>
+<fig/overfit-underfit.png, id=294, 1011.78pt x 361.35pt>
 File: fig/overfit-underfit.png Graphic file (type png)
 <use fig/overfit-underfit.png>
 Package pdftex.def Info: fig/overfit-underfit.png  used on input line 131. on i
@@ -1230,7 +1230,7 @@ ts
                                                   \fi \fi 
 l.138 
        <./fig/overfit-underfit.png>]
-<fig/convolution.png, id=302, 885.3075pt x 338.01282pt>
+<fig/convolution.png, id=307, 885.3075pt x 338.01282pt>
 File: fig/convolution.png Graphic file (type png)
 <use fig/convolution.png>
 Package pdftex.def Info: fig/convolution.png  used on input line 149. on input 
@@ -1238,7 +1238,7 @@ line 149.
 Package pdftex.def Info: Requested size: 472.03123pt x 180.22388pt on input lin
 e 149.
  [13]
-<fig/filters.png, id=316, 629.35126pt x 248.93pt>
+<fig/filters.png, id=321, 629.35126pt x 248.93pt>
 File: fig/filters.png Graphic file (type png)
 <use fig/filters.png>
 Package pdftex.def Info: fig/filters.png  used on input line 158. on input line
@@ -1263,14 +1263,14 @@ Chapter 5.
 [16
 
 ]
-<fig/alexnet.png, id=352, 579.66562pt x 166.37157pt>
+<fig/alexnet.png, id=357, 579.66562pt x 166.37157pt>
 File: fig/alexnet.png Graphic file (type png)
 <use fig/alexnet.png>
 Package pdftex.def Info: fig/alexnet.png  used on input line 19. on input line 
 19.
 Package pdftex.def Info: Requested size: 330.42041pt x 94.8353pt on input line 
 19.
-<fig/vgg16.png, id=358, 471.7625pt x 277.035pt>
+<fig/vgg16.png, id=363, 471.7625pt x 277.035pt>
 File: fig/vgg16.png Graphic file (type png)
 <use fig/vgg16.png>
 Package pdftex.def Info: fig/vgg16.png  used on input line 30. on input line 30
@@ -1296,14 +1296,14 @@ l.38
                                                   \fi \fi 
 l.38 
       <./fig/alexnet.png> <./fig/vgg16.png (PNG copy)>]
-<fig/googlenet.png, id=367, 627.09282pt x 331.2375pt>
+<fig/googlenet.png, id=372, 627.09282pt x 331.2375pt>
 File: fig/googlenet.png Graphic file (type png)
 <use fig/googlenet.png>
 Package pdftex.def Info: fig/googlenet.png  used on input line 41. on input lin
 e 41.
 Package pdftex.def Info: Requested size: 330.42041pt x 174.53912pt on input lin
 e 41.
-<fig/residual.png, id=373, 338.76563pt x 180.675pt>
+<fig/residual.png, id=378, 338.76563pt x 180.675pt>
 File: fig/residual.png Graphic file (type png)
 <use fig/residual.png>
 Package pdftex.def Info: fig/residual.png  used on input line 52. on input line
@@ -1317,7 +1317,7 @@ e 52.
                                                   \fi \fi 
 l.56 
       <./fig/googlenet.png>]
-<fig/capsnet.png, id=385, 749.04843pt x 212.29312pt>
+<fig/capsnet.png, id=390, 749.04843pt x 212.29312pt>
 File: fig/capsnet.png Graphic file (type png)
 <use fig/capsnet.png>
 Package pdftex.def Info: fig/capsnet.png  used on input line 70. on input line 
@@ -1374,22 +1374,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
 (./appendix-b.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: C4EBE33ABFD84BB7E84E62918FEADB34;1713
-(rerunfilecheck)             After:  35F39ACF04C73BFB3764CADD6BACFC5C;1773.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 35F39ACF04C73BFB3764CADD6BACFC5C;1773.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  ) 
 Here is how much of TeX's memory you used:
- 8638 strings out of 492990
- 119427 string characters out of 6136334
- 207819 words of memory out of 5000000
- 11832 multiletter control sequences out of 15000+600000
+ 8643 strings out of 492990
+ 119546 string characters out of 6136334
+ 207860 words of memory out of 5000000
+ 11836 multiletter control sequences out of 15000+600000
  71273 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,6n,34p,1270b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1401,10 +1394,10 @@ c/fourier/fourier-ms.pfb><c:/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/p
 utb8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/t
 exlive/2017/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2017/tex
 mf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on thesis.pdf (31 pages, 2982639 bytes).
+Output written on thesis.pdf (31 pages, 2983000 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 410 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 298 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 500 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -10,14 +10,15 @@ A level-1 auxiliary file: acronyms.aux
 A level-1 auxiliary file: appendix-b.aux
 The style file: apa.bst
 Database file #1: library.bib
-Repeated entry---line 138 of file library.bib
+Repeated entry---line 146 of file library.bib
  : @misc{powertrace2016
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 299 of file library.bib
+Repeated entry---line 307 of file library.bib
  : @misc{scan2cad2009
  :                   ,
 I'm skipping whatever remains of this entry
+Warning--empty journal in Badrinarayanan2015
 Warning--empty journal in Garcia-Garcia2017
 Warning--empty year in Li
 Warning--empty journal in Long2014
@@ -27,45 +28,45 @@ Warning--empty journal in Szegedy2014
 Warning--empty journal in Visin2015
 Warning--empty publisher in Worboys2003
 Warning--empty journal in Zeiler2011
-You've used 20 entries,
+You've used 21 entries,
             1940 wiz_defined-function locations,
-            586 strings with 7026 characters,
-and the built_in function-call counts, 8049 in all, are:
-= -- 765
-> -- 398
-< -- 16
-+ -- 138
-- -- 138
-* -- 696
-:= -- 1414
-add.period$ -- 52
-call.type$ -- 20
-change.case$ -- 167
-chr.to.int$ -- 20
-cite$ -- 29
-duplicate$ -- 295
-empty$ -- 484
-format.name$ -- 162
-if$ -- 1536
+            590 strings with 7204 characters,
+and the built_in function-call counts, 8504 in all, are:
+= -- 810
+> -- 416
+< -- 17
++ -- 144
+- -- 144
+* -- 733
+:= -- 1488
+add.period$ -- 55
+call.type$ -- 21
+change.case$ -- 175
+chr.to.int$ -- 21
+cite$ -- 31
+duplicate$ -- 314
+empty$ -- 514
+format.name$ -- 169
+if$ -- 1628
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 95
-num.names$ -- 60
-pop$ -- 168
+missing$ -- 17
+newline$ -- 100
+num.names$ -- 63
+pop$ -- 178
 preamble$ -- 1
-purify$ -- 169
+purify$ -- 177
 quote$ -- 0
-skip$ -- 244
+skip$ -- 260
 stack$ -- 0
-substring$ -- 466
-swap$ -- 69
-text.length$ -- 7
+substring$ -- 497
+swap$ -- 75
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 116
-warning$ -- 9
-while$ -- 67
+type$ -- 122
+warning$ -- 10
+while$ -- 72
 width$ -- 0
-write$ -- 231
+write$ -- 243
 (There were 2 error messages)
