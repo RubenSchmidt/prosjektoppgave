@@ -11,6 +11,30 @@ B{\o}, T. (2009).
 \newblock {En veileder basert p{\aa} praktiske erfaringer fra Telemark og
   Vestfold}.
 
+\bibitem[\protect\astroncite{Chen et~al.}{2014}]{Chen2014}
+Chen, L.-C., Papandreou, G., Kokkinos, I., Murphy, K., and Yuille, A.~L.
+  (2014).
+\newblock {Semantic Image Segmentation with Deep Convolutional Nets and Fully
+  Connected CRFs}.
+\newblock pages 1--14.
+
+\bibitem[\protect\astroncite{Chen et~al.}{2016}]{Chen2016}
+Chen, L.-C., Papandreou, G., Kokkinos, I., Murphy, K., and Yuille, A.~L.
+  (2016).
+\newblock {DeepLab: Semantic Image Segmentation with Deep Convolutional Nets,
+  Atrous Convolution, and Fully Connected CRFs}.
+\newblock pages 1--14.
+
+\bibitem[\protect\astroncite{Chen et~al.}{2017}]{Chen2017a}
+Chen, L.-C., Papandreou, G., Schroff, F., and Adam, H. (2017).
+\newblock {Rethinking Atrous Convolution for Semantic Image Segmentation}.
+
+\bibitem[\protect\astroncite{Everingham et~al.}{2010}]{Everingham2010}
+Everingham, M., {Van Gool}, L., Williams, C.~K., Winn, J., and Zisserman, A.
+  (2010).
+\newblock {The pascal visual object classes (VOC) challenge}.
+\newblock {\em International Journal of Computer Vision}, 88(2):303--338.
+
 \bibitem[\protect\astroncite{Garcia-Garcia et~al.}{2017}]{Garcia-Garcia2017}
 Garcia-Garcia, A., Orts-Escolano, S., Oprea, S., Villena-Martinez, V., and
   Garcia-Rodriguez, J. (2017).
@@ -23,9 +47,26 @@ He, K., Zhang, X., Ren, S., and Sun, J. (2015).
 \newblock {Deep Residual Learning for Image Recognition}.
 \newblock {\em Multimedia Tools and Applications}, pages 1--17.
 
+\bibitem[\protect\astroncite{Ioffe and Szegedy}{2015}]{Ioffe2015}
+Ioffe, S. and Szegedy, C. (2015).
+\newblock {Batch Normalization: Accelerating Deep Network Training by Reducing
+  Internal Covariate Shift}.
+
 \bibitem[\protect\astroncite{Karpathy}{}]{Li}
 Karpathy, A.
 \newblock {CS231n Convolutional Neural Networks for Visual Recognition}.
+
+\bibitem[\protect\astroncite{{Kommunalt
+  Planregister}}{2009}]{Kommunaltplanregister2009}
+{Kommunalt Planregister} (2009).
+\newblock {{\S} 2-2. Kommunalt planregister}.
+
+\bibitem[\protect\astroncite{Kr{\"{a}}henb{\"{u}}hl and
+  Koltun}{2012}]{Krahenbuhl2012a}
+Kr{\"{a}}henb{\"{u}}hl, P. and Koltun, V. (2012).
+\newblock {Efficient Inference in Fully Connected CRFs with Gaussian Edge
+  Potentials}.
+\newblock pages 1--9.
 
 \bibitem[\protect\astroncite{Krizhevsky et~al.}{2012}]{Krizhevsky2012}
 Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2012).
@@ -36,18 +77,25 @@ Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2012).
 Long, J., Shelhamer, E., and Darrell, T. (2014).
 \newblock {Fully Convolutional Networks for Semantic Segmentation}.
 
-\bibitem[\protect\astroncite{{PASCAL VOC}}{2012}]{PASCALVOC2012}
-{PASCAL VOC} (2012).
+\bibitem[\protect\astroncite{Papandreou}{2015}]{Papandreou2015}
+Papandreou, G. (2015).
+\newblock {Modeling Local and Global Deformations in Deep Learning {\_}
+  Epitomic Convolution,Multiple Instance Learning, and SlidingWindow
+  Detection}.
+\newblock {\em Cvpr}, pages 390--399.
+
+\bibitem[\protect\astroncite{{PASCAL VOC}}{2012a}]{PASCALVOC2012}
+{PASCAL VOC} (2012a).
 \newblock {PASCAL VOC2011}.
+
+\bibitem[\protect\astroncite{{PASCAL VOC}}{2012b}]{PASCALVOC2012a}
+{PASCAL VOC} (2012b).
+\newblock {Segmentation Results: VOC2012}.
 
 \bibitem[\protect\astroncite{Patterson and Gibson}{2017}]{Patterson2017}
 Patterson, J. and Gibson, A. (2017).
 \newblock {\em {Deep Learning: A Practitioner's Approach}}.
 \newblock O'Reilly Media.
-
-\bibitem[\protect\astroncite{planregister}{2009}]{Kommunaltplanregister2009}
-planregister, K. (2009).
-\newblock {{\S} 2-2. Kommunalt planregister}.
 
 \bibitem[\protect\astroncite{PowerTRACE}{2016}]{powertrace2016}
 PowerTRACE (2016).
@@ -95,6 +143,10 @@ Visin, F., Kastner, K., Cho, K., Matteucci, M., Courville, A., and Bengio, Y.
 \bibitem[\protect\astroncite{Worboys}{2003}]{Worboys2003}
 Worboys, M.~F. (2003).
 \newblock {\em {GIS: A computing perspective}}.
+
+\bibitem[\protect\astroncite{Yu and Koltun}{2015}]{Yu2015}
+Yu, F. and Koltun, V. (2015).
+\newblock {Multi-Scale Context Aggregation by Dilated Convolutions}.
 
 \bibitem[\protect\astroncite{Zangeneh et~al.}{2011}]{Zangeneh2011}
 Zangeneh, M., Omid, M., and Akram, A. (2011).

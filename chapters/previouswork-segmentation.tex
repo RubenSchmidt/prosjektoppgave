@@ -44,7 +44,7 @@ This network won the 2014 ILSVRC challenge with a top-5 test accuracy of 93.3\%.
 \end{figure}
 
 
-\subsection{ResNet}
+\subsection{ResNet}\label{subsection:resnet}
 ResNet won the 2015 ILSVRC, with a top-5 test accuracy of 96.4\%. The network is known for its depth of 152 layers and a new kind of building block called residual block. The residual block contains two paths between the input and the output where one of the paths serve as a shortcut connection to the output (see \autoref{fig:residualblock}) essentially copying the input to the output layer. A big problem with very deep networks is that they are hard to optimize. When the depth of the network increases, the accuracy gets saturated. This is called \emph{degradation} and is the problem that the residual blocks are addressing by forcing the network to learn on top of already available input. 
 
 \begin{figure}[H]
@@ -74,33 +74,61 @@ It has not (yet) been tested in ILSVRC but has been run on the Modified Institut
 
 
 \section{Image segmentation}
-Many of the previous network architectures described in \autoref{sec:important-architectures} are predicting labels of what the images contain and not where and what part of the image the labels are to be found in. Image segmentation is about assigning a class to each pixel with its enclosing object so we need output from the networks that are spatial maps instead of classification scores. In this section, we will review important networks that are specialized in image segmentation.
+Many of the previous network architectures described in \autoref{sec:important-architectures} are predicting labels of what the images contain and not where and what part of the image the labels are to be found in. Image segmentation is about assigning a class to each pixel with its enclosing object, also called dense predictions, so we need output from the networks that are spatial maps instead of classification scores. In this section, we will review important networks that are specialized in image segmentation. A benchmark often used for image segmentation is the PASCAL Visual Object Classes Challenge (VOC) \cite{Everingham2010}, that provides standardised image data sets for object class recognition. We will therefore evaluate the networks with the scores in VOC when applicable.
 
 
 \subsection{FCN}
-Fully Convolutional Network (FCN) by \citeauthor{Long2014} \cite{Long2014} can be seen as a common forerunner for semantic segmentation with convolutional networks \cite{Garcia-Garcia2017}. FCN adopted the contemporary deep classification nets AlexNet, VGG and GoogLeNet architectures we saw in \autoref{sec:important-architectures} to make dense predictions at the pixel level. It is important to note that they not only reused the architecture but used the pre-trained classification models as a starting point. The network replaced the fully-connected layers with convolutional ones, noting that the fully-connected layers could be seen as convolutional ones with kernels (filters) that cover the entire input region. This allowed segmentation maps to be generated from images of any size. Because of all the pooling operations in CNNs, a technique called \emph{deconvolution} \cite{Zeiler2011} was used to upsample the coarse output to dense pixels. Deconvolutional layers can learn interpolation functions the same way the network learns weights. Skip connections similar to the ones we saw in ResNet, are also included to give the deeper layers higher resolution feature maps. 
+Fully Convolutional Network (FCN) by \citeauthor{Long2014} \cite{Long2014} can be seen as a common forerunner for semantic segmentation with convolutional networks \cite{Garcia-Garcia2017}. FCN adopted the contemporary deep classification nets AlexNet, VGG and GoogLeNet architectures we saw in \autoref{sec:important-architectures} to make dense predictions at the pixel level. It is important to note that they not only reused the architecture but used the pre-trained classification models as a starting point. The network replaced the fully-connected layers with convolutional ones, noting that the fully-connected layers could be seen as convolutional ones with kernels (filters) that cover the entire input region. This allowed segmentation maps to be generated from images of any size. Because of all the pooling operations in CNNs, a technique called \emph{deconvolution} \cite{Zeiler2011} was used to upsample the coarse output to dense pixels. Deconvolutional layers can learn interpolation functions the same way the network learns weights. Skip connections similar to the ones we saw in ResNet, are also included to give the deeper layers higher resolution feature maps. It reached a score of 62.2 in the VOC2012 challenge. 
 
 
 \subsection{SegNet}
-SegNet by \citeauthor{Badrinarayanan2015} \cite{Badrinarayanan2015}
+SegNet by \citeauthor{Badrinarayanan2015} \cite{Badrinarayanan2015} uses an Encoder-Decoder architecture. One can also view FCN as this type of architecture, where the downsampling is the encoding part and the deconvolution is the decoder part. The difference between these networks is in the decoding part of the architecture. In SegNet more shortcut connections are added, however instead of copying the input to the output of one layer, each upsampling layer corresponds to a max-pooling layer in the encoding part and the indices from the max-pooling layer is copied to the upsampling layer. This can be seen in \autoref{fig:segnet} where we see the blue lines as shorcut connections to the upsampling layers. The network was not benchmarked on VOC2012 in the paper but the leaderboard \cite{PASCALVOC2012a} shows that it reached a score of 59.9. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{fig/segnet.png}
+	\captionsource{SegNet architecture.}{\citeauthor{Badrinarayanan2015}\cite{Badrinarayanan2015}}
+	\label{fig:segnet}
+\end{figure}
+
+
+\subsection{Dilated Convolutions}
+A problem with pooling layers is that they remove more context and resolution from the image the deeper we get into the network. For segmentation we need contextual reasoning and full-resolution output \cite{Yu2015}. \citeauthor{Yu2015} \cite{Yu2015} try to solve this problem with dilated convolution layers. Dilated convolution layers can increase the receptive field of a convolutional filter exponentially while the number of parameters grow linearly. This is illustrated in \autoref{fig:dilution} where we see that the receptive field, indicated in green, grows expoentially compared to the parameters, indicated as red dots. The network showed state-of-the-art perfomance with a simpler architecture, based on VGG-16 \cite{Simonyan2014a}, than the competition, scoring 71.3 in VOC2012 with their basic network.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{fig/dilution.png}
+	\captionsource{Diluted filters. (a) 1-dialted, (b) 2-dialated, (c) 3-dialated.  }{\citeauthor{Yu2015}\cite{Yu2015}}
+	\label{fig:dilution}
+\end{figure}
+
+
+\subsection{DeepLab (v1 \& v2)}
+DeepLab v1 (2014) \cite{Chen2014} and DeepLab v2 (2016) \cite{Chen2016} both used dilated convolutions though they refer to them as \emph{atrous convolutions}. They use fully-connected Conditional Random Fields (CRF) to capture fine-grained details in images as proposed by \citeauthor{Krahenbuhl2012a} \cite{Krahenbuhl2012a}. CRF can be used to combine the class scores from deep CNNs with the low-level information captured by the local interactions of pixels and edges \cite{Chen2014} and is used in DeepLab v1 as a post-processing method. As we can see in \autoref{fig:deeplab1} the effect of using CRF is significant in regards to detecting details in the image. DeepLab v1 used VGG-16 as a starting point for their architecture and got a score of 71.6 at VOC2012 beating the runner-up by a margin of 7.2\%. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{fig/deeplab1.png}
+	\captionsource{Score map (input before softmax) and belief map (output after softmax).  }{\citeauthor{Chen2014}\cite{Chen2014}}
+	\label{fig:deeplab1}
+\end{figure}
+
+
+Deep CNNs can represent different object scales by training on datasets that contain objects of varying size. However explicitly accounting for scale can improve the networks ability to handle large and small objects \cite{Papandreou2015}. DeepLab v2 introduces a new technique to handle multivariate scale, called \emph{atrous spatial pyramid pooling} (ASPP). It uses multiple parallel atrous convolutional layers with different sampling rate/direction to improve the networks ability to deal with objects of different scale. DeepLab v2s best architecture used a pre-trained ResNet-101 (ResNet seen in \autoref{subsection:resnet}, that has 101 layers) with atrous convolutions, ASSP, and CRF that got a score of 79.7 at VOC2012.
+
+
+\subsection{DeepLab v3}
+In DeepLab v3 \cite{Chen2017a}, \citeauthor{Chen2017a} introduce an improved model of ASSP that involves concatenation of image-level features, a 1x1 convolution and three 3x3 atrous convolutions with different rates as seen in \autoref{fig:deeplab3}.
+
+They also found it important to train with \emph{batch normalization} \cite{Ioffe2015}.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{fig/deeplab3.png}
+	\captionsource{Improved version of ASSP, augmented with image-level features.  }{\citeauthor{Chen2017a}\cite{Chen2017a}}
+	\label{fig:deeplab3}
+\end{figure}|||
 
 
 
-
-Dilated CONV
-Deeplab v1 and v2
-Refinenet
-PSPnet
-Large kernel Matters
-Deeplab v3
-
- Texton forest 
- Random fort
- Patch
- FCN 2014
- U-NET
- CRF postprocessing
- 
-
- 
- EncoderDecoder

@@ -40,12 +40,11 @@ Each layer consist of one or more artificial neurons, also called nodes. An arti
 	\label{fig:artificial-neuron}
 \end{figure}
 
-\subsubsection*{Activation functions}
+\subsection{Activation functions}
 
 The use of activation functions in the hidden layers add the ability for the network to learn non-linear functions. We will now take a look at some of the usefull activations functions that are used today.
 
-\subparagraph*{Sigmoid}
-
+\subsubsection*{Sigmoid}
 The sigmoid activation function has a characteristic "S"-shaped curve and can take variables of near infinite range and convert them to values between 0 and 1. It is good at reducing outliers and extreme values in the dataset. Expressed mathematical as:
 
 \begin{equation}
@@ -53,7 +52,7 @@ a = \sigma(x) = \frac{1}{1+\exp(-x)}
 \end{equation}
 
 
-\subparagraph*{Tanh}
+\subsubsection*{Tanh}
 
 A trigonometric hyperbolic function. Tanh can normalize input to the range of -1 to 1 and can therefore deal with negative numbers better than the Sigmoid. Expressed mathematically as:
 
@@ -62,7 +61,7 @@ a = \sigma(x) = \tanh(x)
 \end{equation}
 
 
-\subparagraph*{Rectified Linear}
+\subsubsection*{Rectified Linear}
 
 Rectified Linear only activates a node if it is above some threshold. When the input raises above the threshold it has a linear relation to \autoref{eq:relu}. Nodes that use the rectifier are called Rectified Linear Unit or ReLU. 
 
@@ -72,7 +71,7 @@ a = \sigma(x) = \max(0, x)
 \end{equation}
 
 
-ReLUs are the state-of-the-art because of their proven usefulness in many situations and their ability to train better in practice than sigmoids. ReLU does not have the so-called problem of vanishing gradients either. Vanishing gradients is a problem that occurs when using gradient-based methods (EXPLAINED LATER) for learning, where large changes in the value of parameters from the early layers, does not have a big effect on the output, making the network lose its ability to learn. The reason for this happening is that some activation functions, such as sigmoids or tanh, forces the input space into small regions. 
+ReLUs are the state-of-the-art because of their proven usefulness in many situations and their ability to train better in practice than sigmoids. ReLU does not have the so-called problem of vanishing gradients either. Vanishing gradients is a problem that occurs when using gradient-based methods (explained in \autoref{subsection:backprop}) for learning, where large changes in the value of parameters from the early layers, does not have a big effect on the output, making the network lose its ability to learn. The reason for this happening is that some activation functions, such as sigmoids or tanh, forces the input space into small regions. 
 
 While removing the problem of vanishing gradients, ReLU introduces another one and that is the problem of "dying ReLU" \cite{Li}. This is a problem that occurs when a large gradient passes through the neuron causing the weight update to be so large that it causes the neuron to never activate again, that means that the gradient passing through the neuron will be forever zero.
 
@@ -87,7 +86,7 @@ By adjusting the weights and biases, the network reduces the errors, also called
 The most common algorithm for the weight adjustment in neural networks is called \emph{backpropagation}.
 
 
-\subsubsection*{Backpropagation Learning}
+\subsubsection*{Backpropagation Learning}\label{subsection:backprop}
 When the output from a neural network produces a large loss, we need to update the weights accordingly. A problem with multilayer neural networks, however, is that there are many weights connecting an input with an output, so it becomes difficult knowing what weights that affect the output. We need a clever way of finding what specific weight that contributes to the output. This is the problem backpropagation tries to solve. A high level understanding of backpropagation is that we use the chain rule to iteratively calculate the gradients for each layer. The steps of the algorithm is as follows:
 
 \begin{enumerate}

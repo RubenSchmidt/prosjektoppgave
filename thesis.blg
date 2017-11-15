@@ -10,63 +10,69 @@ A level-1 auxiliary file: acronyms.aux
 A level-1 auxiliary file: appendix-b.aux
 The style file: apa.bst
 Database file #1: library.bib
-Repeated entry---line 146 of file library.bib
- : @misc{powertrace2016
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 307 of file library.bib
+Repeated entry---line 719 of file library.bib
  : @misc{scan2cad2009
  :                   ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 749 of file library.bib
+ : @misc{powertrace2016
+ :                     ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Badrinarayanan2015
+Warning--empty journal in Chen2014
+Warning--empty journal in Chen2016
+Warning--empty journal in Chen2017a
 Warning--empty journal in Garcia-Garcia2017
+Warning--empty journal in Ioffe2015
 Warning--empty year in Li
+Warning--empty journal in Krahenbuhl2012a
 Warning--empty journal in Long2014
 Warning--there's a number but no volume in Sabour2017
 Warning--empty journal in Simonyan2014a
 Warning--empty journal in Szegedy2014
 Warning--empty journal in Visin2015
 Warning--empty publisher in Worboys2003
+Warning--empty journal in Yu2015
 Warning--empty journal in Zeiler2011
-You've used 21 entries,
+You've used 30 entries,
             1940 wiz_defined-function locations,
-            590 strings with 7204 characters,
-and the built_in function-call counts, 8504 in all, are:
-= -- 810
-> -- 416
-< -- 17
-+ -- 144
-- -- 144
-* -- 733
-:= -- 1488
-add.period$ -- 55
-call.type$ -- 21
-change.case$ -- 175
-chr.to.int$ -- 21
-cite$ -- 31
-duplicate$ -- 314
-empty$ -- 514
-format.name$ -- 169
-if$ -- 1628
-int.to.chr$ -- 1
+            629 strings with 8549 characters,
+and the built_in function-call counts, 12129 in all, are:
+= -- 1159
+> -- 576
+< -- 26
++ -- 199
+- -- 198
+* -- 1039
+:= -- 2108
+add.period$ -- 78
+call.type$ -- 30
+change.case$ -- 247
+chr.to.int$ -- 29
+cite$ -- 46
+duplicate$ -- 457
+empty$ -- 743
+format.name$ -- 238
+if$ -- 2333
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 100
-num.names$ -- 63
-pop$ -- 178
+missing$ -- 25
+newline$ -- 141
+num.names$ -- 90
+pop$ -- 254
 preamble$ -- 1
-purify$ -- 177
+purify$ -- 249
 quote$ -- 0
-skip$ -- 260
+skip$ -- 382
 stack$ -- 0
-substring$ -- 497
-swap$ -- 75
-text.length$ -- 8
+substring$ -- 716
+swap$ -- 110
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 122
-warning$ -- 10
-while$ -- 72
+type$ -- 176
+warning$ -- 16
+while$ -- 104
 width$ -- 0
-write$ -- 243
+write$ -- 345
 (There were 2 error messages)
