@@ -10,69 +10,74 @@ A level-1 auxiliary file: acronyms.aux
 A level-1 auxiliary file: appendix-b.aux
 The style file: apa.bst
 Database file #1: library.bib
-Repeated entry---line 719 of file library.bib
- : @misc{scan2cad2009
- :                   ,
+Repeated entry---line 735 of file library.bib
+ : @article{Karabork2008
+ :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 749 of file library.bib
+Repeated entry---line 813 of file library.bib
  : @misc{powertrace2016
  :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 820 of file library.bib
+ : @misc{scan2cad2009
+ :                   ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Badrinarayanan2015
 Warning--empty journal in Chen2014
 Warning--empty journal in Chen2016
 Warning--empty journal in Chen2017a
 Warning--empty journal in Garcia-Garcia2017
-Warning--empty journal in Ioffe2015
+Warning--empty journal in Hinton2015
 Warning--empty year in Li
 Warning--empty journal in Krahenbuhl2012a
 Warning--empty journal in Long2014
 Warning--there's a number but no volume in Sabour2017
 Warning--empty journal in Simonyan2014a
+Warning--empty journal in Sun2017
 Warning--empty journal in Szegedy2014
 Warning--empty journal in Visin2015
 Warning--empty publisher in Worboys2003
 Warning--empty journal in Yu2015
 Warning--empty journal in Zeiler2011
-You've used 30 entries,
+You've used 35 entries,
             1940 wiz_defined-function locations,
-            629 strings with 8549 characters,
-and the built_in function-call counts, 12129 in all, are:
-= -- 1159
-> -- 576
+            664 strings with 9495 characters,
+and the built_in function-call counts, 14447 in all, are:
+= -- 1384
+> -- 691
 < -- 26
-+ -- 199
-- -- 198
-* -- 1039
-:= -- 2108
-add.period$ -- 78
-call.type$ -- 30
-change.case$ -- 247
-chr.to.int$ -- 29
-cite$ -- 46
-duplicate$ -- 457
-empty$ -- 743
-format.name$ -- 238
-if$ -- 2333
++ -- 239
+- -- 238
+* -- 1264
+:= -- 2507
+add.period$ -- 93
+call.type$ -- 35
+change.case$ -- 292
+chr.to.int$ -- 34
+cite$ -- 52
+duplicate$ -- 532
+empty$ -- 891
+format.name$ -- 281
+if$ -- 2773
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 25
-newline$ -- 141
-num.names$ -- 90
-pop$ -- 254
+missing$ -- 30
+newline$ -- 166
+num.names$ -- 105
+pop$ -- 294
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 294
 quote$ -- 0
-skip$ -- 382
+skip$ -- 437
 stack$ -- 0
-substring$ -- 716
-swap$ -- 110
-text.length$ -- 12
+substring$ -- 892
+swap$ -- 124
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 176
-warning$ -- 16
-while$ -- 104
+type$ -- 206
+warning$ -- 17
+while$ -- 125
 width$ -- 0
-write$ -- 345
-(There were 2 error messages)
+write$ -- 409
+(There were 3 error messages)

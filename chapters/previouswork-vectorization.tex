@@ -1,2 +1,26 @@
 \chapter{Previous work - Rastermap Vectorization}
+Image segmention has come a long way on images of normal everyday objects with deep CNNs. However none of the reviewed papers use their networks on raster maps. Not a lot of work has been done in regards to vectorization of raster maps using neural networks. 
+
+More work on satellite images.
+
+Non artificial methods 
+
+\section{Non-artifical intelligence methods}
+\subsection{Multi stage system}
+\cite{Oka2012}
+
+
+\section{Artificial intelligence methods}
+
+\subsection{VecNET}
+(Maybe not even relevant because of bad quality of paper and use of ANN?)
+
+VecNet proposed by \citeauthor{Karabork2008} in 2008 is one of few examples of vectorization of cartographic raster maps using a neural network. The authors present a three-step process consisting of thinning, line tracking with ANN and simplification. The main goal of the network is to find the critical points of objects, that is, to find breakage points of lines.
+They use an ANN with an input layer, a hidden layer and an output layer to classify. The training set is very small with only 16 samples. The output layer is a single vector with size 12, where the 8 first places represent an 8-way chain code of directions and the last four represent a prediction of where the next pixel is going to be. The algorithm is tested on a single raster map only consisting of lines and does not perform better than 
+
+\subsection{Knowledge based system}
+\cite{Lee2000}
+
+\cite{Song2000}
+
 

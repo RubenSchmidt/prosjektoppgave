@@ -47,10 +47,16 @@ He, K., Zhang, X., Ren, S., and Sun, J. (2015).
 \newblock {Deep Residual Learning for Image Recognition}.
 \newblock {\em Multimedia Tools and Applications}, pages 1--17.
 
-\bibitem[\protect\astroncite{Ioffe and Szegedy}{2015}]{Ioffe2015}
-Ioffe, S. and Szegedy, C. (2015).
-\newblock {Batch Normalization: Accelerating Deep Network Training by Reducing
-  Internal Covariate Shift}.
+\bibitem[\protect\astroncite{Hinton et~al.}{2015}]{Hinton2015}
+Hinton, G., Vinyals, O., and Dean, J. (2015).
+\newblock {Distilling the Knowledge in a Neural Network}.
+\newblock pages 1--9.
+
+\bibitem[\protect\astroncite{Karabork et~al.}{2008}]{Karabork2008}
+Karabork, H., Kocer, B., Bildirici, I.~O., Yildiz, F., and Aktas, E. (2008).
+\newblock {A neural network algorithm for vectorization of 2D maps}.
+\newblock {\em [APRS'08] International Archives of Photogrammetry and Remote
+  Sensing}, XXXVII(B2):473--480.
 
 \bibitem[\protect\astroncite{Karpathy}{}]{Li}
 Karpathy, A.
@@ -73,9 +79,21 @@ Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2012).
 \newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
 \newblock {\em Advances In Neural Information Processing Systems}, pages 1--9.
 
+\bibitem[\protect\astroncite{Lee et~al.}{2000}]{Lee2000}
+Lee, K.~H., Cho, S.~B., and Choy, Y.~C. (2000).
+\newblock {Automated vectorization of cartographic maps by a knowledge-based
+  system}.
+\newblock {\em Engineering Applications of Artificial Intelligence},
+  13(2):165--178.
+
 \bibitem[\protect\astroncite{Long et~al.}{2014}]{Long2014}
 Long, J., Shelhamer, E., and Darrell, T. (2014).
 \newblock {Fully Convolutional Networks for Semantic Segmentation}.
+
+\bibitem[\protect\astroncite{Oka et~al.}{2012}]{Oka2012}
+Oka, S., Garg, A., and Varghese, K. (2012).
+\newblock {Vectorization of contour lines from scanned topographic maps}.
+\newblock {\em Automation in Construction}, 22:192--202.
 
 \bibitem[\protect\astroncite{Papandreou}{2015}]{Papandreou2015}
 Papandreou, G. (2015).
@@ -121,11 +139,21 @@ Simonyan, K. and Zisserman, A. (2014).
 \newblock {Very Deep Convolutional Networks for Large-Scale Image Recognition}.
 \newblock pages 1--14.
 
+\bibitem[\protect\astroncite{Song et~al.}{2000}]{Song2000}
+Song, J., Su, F., Chen, J., and Cai, S. (2000).
+\newblock {A Knowledge-Aided Line Network Oriented Vectorisation Method for
+  Engineering Drawings}.
+\newblock {\em Pattern Analysis {\&} Applications}, 3(2):142--152.
+
 \bibitem[\protect\astroncite{Srivastava et~al.}{2014}]{Srivastava2014}
 Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., and Salakhutdinov,
   R. (2014).
 \newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
 \newblock {\em Journal of Machine Learning Research}, 15:1929--1958.
+
+\bibitem[\protect\astroncite{Sun et~al.}{2017}]{Sun2017}
+Sun, C., Shrivastava, A., Singh, S., and Gupta, A. (2017).
+\newblock {Revisiting Unreasonable Effectiveness of Data in Deep Learning Era}.
 
 \bibitem[\protect\astroncite{Szegedy et~al.}{2014}]{Szegedy2014}
 Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D.,

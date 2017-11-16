@@ -120,14 +120,22 @@ Deep CNNs can represent different object scales by training on datasets that con
 \subsection{DeepLab v3}
 In DeepLab v3 \cite{Chen2017a}, \citeauthor{Chen2017a} introduce an improved model of ASSP that involves concatenation of image-level features, a 1x1 convolution and three 3x3 atrous convolutions with different rates as seen in \autoref{fig:deeplab3}.
 
-They also found it important to train with \emph{batch normalization} \cite{Ioffe2015}. A problem that occurs when when training normalized data (MAYBE EXPLAIN) is that the weights and parameters sometimes change the data som much that it becomes too big.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{fig/deeplab3.png}
+	\captionsource{Improved version of ASSP, augmented with image-level features.  }{\citeauthor{Chen2017a}\cite{Chen2017a}}
+	\label{fig:deeplab3}
+\end{figure}
 
+\emph{Cascading modules} was also proposed. A technique where the last ResNet block is duplicated multiple times and modified with atrous convolution Each block consists of three atrous convolution layers as seen in \autoref{fig:cascading}.
+
+Both methods were tested, but the new ASSP performed better and was selected for use in the final model. Using a ResNet-101 pre-trained on ImageNet dataset, DeepLabv3 reached a perfomance of 85.7 on VOC2012. Using a ResNet-101 pre-trained on both ImageNet and JFT-300M dataset (internal dataset at Google with over 300M images \cite{Hinton2015}\cite{Sun2017}) , DeepLabv3-JFT got a score of 86.9 on VOC2012.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=\linewidth]{fig/deeplab3.png}
-	\captionsource{Improved version of ASSP, augmented with image-level features.  }{\citeauthor{Chen2017a}\cite{Chen2017a}}
-	\label{fig:deeplab3}
+	\includegraphics[width=0.8\linewidth]{fig/cascading.png}
+	\captionsource{Cascaded modules.}{\citeauthor{Chen2017a}\cite{Chen2017a}}
+	\label{fig:cascading}
 \end{figure}
 
 
