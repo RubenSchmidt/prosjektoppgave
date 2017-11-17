@@ -15,8 +15,9 @@ Non artificial methods
 \subsection{VecNET}
 (Maybe not even relevant because of bad quality of paper and use of ANN?)
 
-VecNet proposed by \citeauthor{Karabork2008} in 2008 is one of few examples of vectorization of cartographic raster maps using a neural network. The authors present a three-step process consisting of thinning, line tracking with ANN and simplification. The main goal of the network is to find the critical points of objects, that is, to find breakage points of lines.
-They use an ANN with an input layer, a hidden layer and an output layer to classify. The training set is very small with only 16 samples. The output layer is a single vector with size 12, where the 8 first places represent an 8-way chain code of directions and the last four represent a prediction of where the next pixel is going to be. The algorithm is tested on a single raster map only consisting of lines and does not perform better than 
+VecNet proposed by \citeauthor{Karabork2008} in 2008 is one of few examples of vectorization of cartographic raster maps using a neural network. The authors present a three-step process consisting of thinning, line tracking with ANN and simplification. The main goal of the network is to find the critical points of objects, that is, to find breakage points of lines. They use an ANN with an input layer, a hidden layer and an output layer to classify. The training set is very small with only 16 samples. The output layer is a single vector with size 12, where the 8 first places represent an 8-way chain code of directions (the direction the line is following) and the last four represent a prediction of where the next pixel is going to be. It evaluates if the point is critical by checking if the last 8-way direction is different from the one currently calculated. If the point is critical, they store it.
+
+The algorithm is tested on a single raster map only consisting of lines and does not perform better than a sparse pixel algorithm but manages to get acceptable results.
 
 \subsection{Knowledge based system}
 \cite{Lee2000}

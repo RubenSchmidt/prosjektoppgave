@@ -10,15 +10,15 @@ A level-1 auxiliary file: acronyms.aux
 A level-1 auxiliary file: appendix-b.aux
 The style file: apa.bst
 Database file #1: library.bib
-Repeated entry---line 735 of file library.bib
+Repeated entry---line 212 of file library.bib
  : @article{Karabork2008
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 813 of file library.bib
+Repeated entry---line 522 of file library.bib
  : @misc{powertrace2016
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 820 of file library.bib
+Repeated entry---line 754 of file library.bib
  : @misc{scan2cad2009
  :                   ,
 I'm skipping whatever remains of this entry
