@@ -52,6 +52,12 @@ Hinton, G., Vinyals, O., and Dean, J. (2015).
 \newblock {Distilling the Knowledge in a Neural Network}.
 \newblock pages 1--9.
 
+\bibitem[\protect\astroncite{Iosifescu et~al.}{2016}]{Iosifescu2016}
+Iosifescu, I., Tsorlini, A., and Hurni, L. (2016).
+\newblock {Towards a comprehensive methodology for automatic vectorization of
+  raster historical maps}.
+\newblock {\em e-Perimetron}, 11(2):57--76.
+
 \bibitem[\protect\astroncite{Karabork et~al.}{2008}]{Karabork2008}
 Karabork, H., Kocer, B., Bildirici, I.~O., Yildiz, F., and Aktas, E. (2008).
 \newblock {A neural network algorithm for vectorization of 2D maps}.
@@ -86,6 +92,12 @@ Lee, K.~H., Cho, S.~B., and Choy, Y.~C. (2000).
 \newblock {\em Engineering Applications of Artificial Intelligence},
   13(2):165--178.
 
+\bibitem[\protect\astroncite{Leyk and Boesch}{2010}]{Leyk2010}
+Leyk, S. and Boesch, R. (2010).
+\newblock {Colors of the past: Color image segmentation in historical
+  topographic maps based on homogeneity}.
+\newblock {\em GeoInformatica}, 14(1):1--21.
+
 \bibitem[\protect\astroncite{Long et~al.}{2014}]{Long2014}
 Long, J., Shelhamer, E., and Darrell, T. (2014).
 \newblock {Fully Convolutional Networks for Semantic Segmentation}.
@@ -94,6 +106,10 @@ Long, J., Shelhamer, E., and Darrell, T. (2014).
 Oka, S., Garg, A., and Varghese, K. (2012).
 \newblock {Vectorization of contour lines from scanned topographic maps}.
 \newblock {\em Automation in Construction}, 22:192--202.
+
+\bibitem[\protect\astroncite{OSGeo}{}]{OSGeo}
+OSGeo.
+\newblock {GDAL}.
 
 \bibitem[\protect\astroncite{Papandreou}{2015}]{Papandreou2015}
 Papandreou, G. (2015).

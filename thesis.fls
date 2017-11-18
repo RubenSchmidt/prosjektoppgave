@@ -104,6 +104,8 @@ INPUT c:/texlive/2017/texmf-dist/tex/latex/parskip/parskip.sty
 INPUT c:/texlive/2017/texmf-dist/tex/latex/parskip/parskip.sty
 INPUT c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2017/texmf-dist/tex/generic/genmisc/nth.sty
+INPUT c:/texlive/2017/texmf-dist/tex/generic/genmisc/nth.sty
 INPUT thesis.aux
 INPUT thesis.aux
 INPUT front.aux
@@ -319,6 +321,9 @@ INPUT ./fig/cascading.png
 INPUT ./fig/cascading.png
 INPUT chapters/previouswork-vectorization.tex
 INPUT chapters/previouswork-vectorization.tex
+INPUT fig/map-processing.png
+INPUT ./fig/map-processing.png
+INPUT ./fig/map-processing.png
 INPUT chapters/discussion.tex
 INPUT chapters/discussion.tex
 INPUT chapters/conclusion.tex
