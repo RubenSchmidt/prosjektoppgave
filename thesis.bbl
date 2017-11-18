@@ -47,6 +47,10 @@ He, K., Zhang, X., Ren, S., and Sun, J. (2015).
 \newblock {Deep Residual Learning for Image Recognition}.
 \newblock {\em Multimedia Tools and Applications}, pages 1--17.
 
+\bibitem[\protect\astroncite{Henderson et~al.}{}]{Henderson}
+Henderson, T.~C., Linton, T., Potupchik, S., and Ostanin, A.
+\newblock {Automatic Segmentation of Semantic Classes in Raster Map Images}.
+
 \bibitem[\protect\astroncite{Hinton et~al.}{2015}]{Hinton2015}
 Hinton, G., Vinyals, O., and Dean, J. (2015).
 \newblock {Distilling the Knowledge in a Neural Network}.
