@@ -4,37 +4,38 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
 \BOOKMARK [0][-]{chapter.2}{Motivation}{}% 5
 \BOOKMARK [0][-]{chapter.3}{Vectorization}{}% 6
-\BOOKMARK [0][-]{chapter.4}{Image segmentation with Deep Learning}{}% 7
-\BOOKMARK [1][-]{section.4.1}{Neural networks}{chapter.4}% 8
-\BOOKMARK [2][-]{subsection.4.1.1}{Artificial neurons}{section.4.1}% 9
-\BOOKMARK [2][-]{subsection.4.1.2}{Activation functions}{section.4.1}% 10
-\BOOKMARK [2][-]{subsection.4.1.3}{Training}{section.4.1}% 11
-\BOOKMARK [1][-]{section.4.2}{Convolutional neural networks}{chapter.4}% 12
-\BOOKMARK [2][-]{subsection.4.2.1}{Convolutional layers}{section.4.2}% 13
-\BOOKMARK [2][-]{subsection.4.2.2}{Pooling layers}{section.4.2}% 14
-\BOOKMARK [0][-]{chapter.5}{Previous work - Image segmentation}{}% 15
-\BOOKMARK [1][-]{section.5.1}{Important architectures}{chapter.5}% 16
-\BOOKMARK [2][-]{subsection.5.1.1}{AlexNet}{section.5.1}% 17
-\BOOKMARK [2][-]{subsection.5.1.2}{VGG}{section.5.1}% 18
-\BOOKMARK [2][-]{subsection.5.1.3}{GoogLeNet}{section.5.1}% 19
-\BOOKMARK [2][-]{subsection.5.1.4}{ResNet}{section.5.1}% 20
-\BOOKMARK [2][-]{subsection.5.1.5}{CapsNet}{section.5.1}% 21
-\BOOKMARK [1][-]{section.5.2}{Image segmentation}{chapter.5}% 22
-\BOOKMARK [2][-]{subsection.5.2.1}{FCN}{section.5.2}% 23
-\BOOKMARK [2][-]{subsection.5.2.2}{SegNet}{section.5.2}% 24
-\BOOKMARK [2][-]{subsection.5.2.3}{Dilated Convolutions}{section.5.2}% 25
-\BOOKMARK [2][-]{subsection.5.2.4}{DeepLab \(v1 \046 v2\)}{section.5.2}% 26
-\BOOKMARK [2][-]{subsection.5.2.5}{DeepLab v3}{section.5.2}% 27
-\BOOKMARK [0][-]{chapter.6}{Previous work - Rastermap Vectorization}{}% 28
-\BOOKMARK [1][-]{section.6.1}{Non-artifical intelligence methods}{chapter.6}% 29
-\BOOKMARK [2][-]{subsection.6.1.1}{Multi stage system}{section.6.1}% 30
-\BOOKMARK [1][-]{section.6.2}{Artificial intelligence methods}{chapter.6}% 31
-\BOOKMARK [2][-]{subsection.6.2.1}{VecNET}{section.6.2}% 32
-\BOOKMARK [2][-]{subsection.6.2.2}{Knowledge based system}{section.6.2}% 33
-\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 34
-\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 35
-\BOOKMARK [0][-]{appendix.A}{Acronyms}{}% 36
-\BOOKMARK [0][-]{appendix.B}{What to put in appendixes}{}% 37
-\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 38
-\BOOKMARK [2][-]{subsection.B.1.1}{More Details}{section.B.1}% 39
-\BOOKMARK [0][-]{subsection.B.1.1}{Bibliography}{}% 40
+\BOOKMARK [1][-]{section.3.1}{Hough Transform}{chapter.3}% 7
+\BOOKMARK [0][-]{chapter.4}{Image segmentation with Deep Learning}{}% 8
+\BOOKMARK [1][-]{section.4.1}{Neural networks}{chapter.4}% 9
+\BOOKMARK [2][-]{subsection.4.1.1}{Artificial neurons}{section.4.1}% 10
+\BOOKMARK [2][-]{subsection.4.1.2}{Activation functions}{section.4.1}% 11
+\BOOKMARK [2][-]{subsection.4.1.3}{Training}{section.4.1}% 12
+\BOOKMARK [1][-]{section.4.2}{Convolutional neural networks}{chapter.4}% 13
+\BOOKMARK [2][-]{subsection.4.2.1}{Convolutional layers}{section.4.2}% 14
+\BOOKMARK [2][-]{subsection.4.2.2}{Pooling layers}{section.4.2}% 15
+\BOOKMARK [0][-]{chapter.5}{Previous work - Image segmentation}{}% 16
+\BOOKMARK [1][-]{section.5.1}{Important architectures}{chapter.5}% 17
+\BOOKMARK [2][-]{subsection.5.1.1}{AlexNet}{section.5.1}% 18
+\BOOKMARK [2][-]{subsection.5.1.2}{VGG}{section.5.1}% 19
+\BOOKMARK [2][-]{subsection.5.1.3}{GoogLeNet}{section.5.1}% 20
+\BOOKMARK [2][-]{subsection.5.1.4}{ResNet}{section.5.1}% 21
+\BOOKMARK [2][-]{subsection.5.1.5}{CapsNet}{section.5.1}% 22
+\BOOKMARK [1][-]{section.5.2}{Image segmentation}{chapter.5}% 23
+\BOOKMARK [2][-]{subsection.5.2.1}{FCN}{section.5.2}% 24
+\BOOKMARK [2][-]{subsection.5.2.2}{SegNet}{section.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.2.3}{Dilated Convolutions}{section.5.2}% 26
+\BOOKMARK [2][-]{subsection.5.2.4}{DeepLab \(v1 \046 v2\)}{section.5.2}% 27
+\BOOKMARK [2][-]{subsection.5.2.5}{DeepLab v3}{section.5.2}% 28
+\BOOKMARK [0][-]{chapter.6}{Previous work - Rastermap Vectorization}{}% 29
+\BOOKMARK [1][-]{section.6.1}{Non-artifical intelligence methods}{chapter.6}% 30
+\BOOKMARK [2][-]{subsection.6.1.1}{Multi stage system}{section.6.1}% 31
+\BOOKMARK [1][-]{section.6.2}{Artificial intelligence methods}{chapter.6}% 32
+\BOOKMARK [2][-]{subsection.6.2.1}{VecNET}{section.6.2}% 33
+\BOOKMARK [2][-]{subsection.6.2.2}{Knowledge based system}{section.6.2}% 34
+\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 35
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 36
+\BOOKMARK [0][-]{appendix.A}{Acronyms}{}% 37
+\BOOKMARK [0][-]{appendix.B}{What to put in appendixes}{}% 38
+\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 39
+\BOOKMARK [2][-]{subsection.B.1.1}{More Details}{section.B.1}% 40
+\BOOKMARK [0][-]{subsection.B.1.1}{Bibliography}{}% 41

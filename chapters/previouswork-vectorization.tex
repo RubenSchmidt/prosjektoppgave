@@ -7,20 +7,17 @@ Non artificial methods
 
 \section{Non-artifical intelligence methods}
 
-\citeauthor{Leyk2010} presents a color image segmentation of raster maps from the \nth{19} century suffering from poor quality with a clustering technique using the local image plane, frequency domain an color space. The goal of the color image segmentation is to reduce the color values to fit the original colors used when printing the map. The method managed to segment lines, symbols and areas that belong to different color layers however there where still some minor classification errors that had to be solved manually.
+\citeauthor{Leyk2010}\cite{Leyk2010} presents a color image segmentation of raster maps from the \nth{19} century suffering from poor quality with a clustering technique using the local image plane, frequency domain an color space. The goal of the color image segmentation is to reduce the color values to fit the original colors used when printing the map. The method managed to segment lines, symbols and areas that belong to different color layers, however, there were still some minor classification errors that had to be solved manually.
 
-In \cite{Iosifescu2016}, open-source solutions are used to vectorize historical maps from the \nth{19} century. Their procedure consists of five steps: Scanning of the map, georeferencing the map, pre-processing of an image to clean artifacts, automatic vectorization, automatic cleaning of the results. The authors note that the pre-processing step and scan quality are the most crucial for the performance of the vectorization and has to be customized for each set of raster maps. The pre-processing consist of RGB channel processing, conversion to binary images and cleaning. By processing the RGB channels in the image, different features on the map can be highlighted. An example of the building extraction can be seen in \autoref{fig:map-preprocessing}. 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\linewidth]{fig/map-processing.png}
-	\captionsource{From left to right: Original image, RBG processed, binary representation and cleaned}{\citeauthor{Iosifescu2016}\cite{Iosifescu2016}}
-	\label{fig:map-preprocessing}
-\end{figure}
+\citeauthor{Iosifescu2016}\cite{Iosifescu2016} use open-source solutions to vectorize historical maps from the \nth{19} century. Their procedure consists of five steps: Scanning of the map, georeferencing the map, pre-processing of an image to clean artifacts, automatic vectorization, automatic cleaning of the results. The authors note that the pre-processing step and scan quality are the most crucial for the performance of the vectorization and have to be customized for each set of raster maps. The pre-processing consist of RGB channel processing, conversion to binary images and cleaning. By processing the RGB channels in the image, different features on the map can be highlighted.
 
 The pre-processed image is then converted to vector format with Geospatial Data Abstraction Library\cite{OSGeo}(GDAL)'s polygonize and contour methods. The results are acceptable when taking the quality of the maps into consideration.
 
-\citeauthor{Henderson} do semantic segmentation of raster maps with three different unsupervised algorithms: k-means, graph theoretic and expectation maximation. The maps have 6 color values and the segmentation is based on the knowledge of these and thus limits the application on more advanced maps.
+\citeauthor{Henderson}\cite{Henderson} do semantic segmentation of raster maps with three different unsupervised algorithms: k-means, graph theoretic and expectation maximation. The maps have 6 color values and the segmentation technique is based on the knowledge of these and thus limits the application on more advanced maps. 
+
+\citeauthor{Chiang2013}\cite{Chiang2013} present a semi-automatic technique for road extraction from raster maps with a system they call \emph{Strabo}. The system consists of two components: Road layer extraction and road layer vectorization. In their components, they use techniques such as mean-shift, k-means and Hough Transform. They compare they systems performance against R2V \cite{Wu1999}. Strabo performed better in 58.3\% of the cases. Generally, their road vector lines manage to stay in the center of the roads more than R2V. A limit of their system is that it struggles to correctly label roads that are very thin on the map.
+
+\citeauthor{Miao2016}\cite{Miao2016} propose a \emph{superpixel}\cite{Ren2003} approach to extract height curves from raster maps. Their method, named \emph{Guided Superpixel Method in Topographic Map}(GSM-TM), consists of three parts: Linear feature extraction, boundary detection, and guided watershed transform. For the linear feature extraction, they merge two negative and two positive Gaussian filters. For the boundary extraction, they use a technique of color boundary detection proposed by \citeauthor{Yang2013}\cite{Yang2013}. The guided watershed transform was introduced since standard watershed is very sensitive to weak boundaries. The guided part consist of modifying the boundaries obtained in the boundary detection step with the lines obtained in the linear feature extraction to make the boundaries clearer before the watershed transform. The results show that the proposed GSM-TM method performs better than the other superpixel algorithms they compare with.
 
 
 \subsection{Multi stage system}

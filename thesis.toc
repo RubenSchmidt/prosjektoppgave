@@ -4,37 +4,38 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \contentsline {chapter}{\numberline {2}Motivation}{3}{chapter.2}
 \contentsline {chapter}{\numberline {3}Vectorization}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}Image segmentation with Deep Learning}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}Neural networks}{8}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Artificial neurons}{9}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Activation functions}{9}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Training}{10}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Convolutional neural networks}{13}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Convolutional layers}{13}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Pooling layers}{15}{subsection.4.2.2}
-\contentsline {chapter}{\numberline {5}Previous work - Image segmentation}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Important architectures}{16}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}AlexNet}{16}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}VGG}{17}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}GoogLeNet}{18}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}ResNet}{18}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}CapsNet}{19}{subsection.5.1.5}
-\contentsline {section}{\numberline {5.2}Image segmentation}{19}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}FCN}{20}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}SegNet}{20}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Dilated Convolutions}{21}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}DeepLab (v1 \& v2)}{21}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}DeepLab v3}{22}{subsection.5.2.5}
-\contentsline {chapter}{\numberline {6}Previous work - Rastermap Vectorization}{24}{chapter.6}
-\contentsline {section}{\numberline {6.1}Non-artifical intelligence methods}{24}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Multi stage system}{25}{subsection.6.1.1}
-\contentsline {section}{\numberline {6.2}Artificial intelligence methods}{25}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}VecNET}{25}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Knowledge based system}{26}{subsection.6.2.2}
-\contentsline {chapter}{\numberline {7}Discussion}{27}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusion}{28}{chapter.8}
-\contentsline {chapter}{\numberline {A}Acronyms}{29}{appendix.A}
-\contentsline {chapter}{\numberline {B}What to put in appendixes}{30}{appendix.B}
-\contentsline {section}{\numberline {B.1}Introduction}{30}{section.B.1}
-\contentsline {subsection}{\numberline {B.1.1}More Details}{30}{subsection.B.1.1}
-\contentsline {chapter}{Bibliography}{31}{subsection.B.1.1}
+\contentsline {section}{\numberline {3.1}Hough Transform}{7}{section.3.1}
+\contentsline {chapter}{\numberline {4}Image segmentation with Deep Learning}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Neural networks}{9}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Artificial neurons}{10}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Activation functions}{10}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Training}{11}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Convolutional neural networks}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Convolutional layers}{14}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Pooling layers}{16}{subsection.4.2.2}
+\contentsline {chapter}{\numberline {5}Previous work - Image segmentation}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Important architectures}{17}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}AlexNet}{17}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}VGG}{18}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}GoogLeNet}{19}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}ResNet}{19}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}CapsNet}{20}{subsection.5.1.5}
+\contentsline {section}{\numberline {5.2}Image segmentation}{20}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}FCN}{21}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}SegNet}{21}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Dilated Convolutions}{22}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}DeepLab (v1 \& v2)}{22}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}DeepLab v3}{23}{subsection.5.2.5}
+\contentsline {chapter}{\numberline {6}Previous work - Rastermap Vectorization}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}Non-artifical intelligence methods}{25}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Multi stage system}{26}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Artificial intelligence methods}{26}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}VecNET}{26}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Knowledge based system}{27}{subsection.6.2.2}
+\contentsline {chapter}{\numberline {7}Discussion}{28}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusion}{29}{chapter.8}
+\contentsline {chapter}{\numberline {A}Acronyms}{30}{appendix.A}
+\contentsline {chapter}{\numberline {B}What to put in appendixes}{31}{appendix.B}
+\contentsline {section}{\numberline {B.1}Introduction}{31}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}More Details}{31}{subsection.B.1.1}
+\contentsline {chapter}{Bibliography}{32}{subsection.B.1.1}
