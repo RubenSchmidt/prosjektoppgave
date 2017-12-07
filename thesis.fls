@@ -246,8 +246,7 @@ INPUT c:/texlive/2017/texmf-dist/tex/latex/fourier/ts1futs.fd
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/futr8c.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/vf/public/fourier/futr8c.vf
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-orns.tfm
-INPUT chapters/semantic_segmentation.tex
-INPUT chapters/semantic_segmentation.tex
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/vf/public/fourier/futmii.vf
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
@@ -255,6 +254,10 @@ INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/vf/public/fourier/futsy.vf
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT chapters/semantic_segmentation.tex
+INPUT chapters/semantic_segmentation.tex
+INPUT c:/texlive/2017/texmf-dist/fonts/vf/public/fourier/futri8t.vf
+INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-alt-ita.tfm
 INPUT fig/se.png
 INPUT ./fig/se.png
 INPUT ./fig/se.png
@@ -264,9 +267,6 @@ INPUT ./fig/feedforward-neural-network.png
 INPUT fig/artificial-neuron.png
 INPUT ./fig/artificial-neuron.png
 INPUT ./fig/artificial-neuron.png
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
-INPUT c:/texlive/2017/texmf-dist/fonts/vf/public/fourier/futri8t.vf
-INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-alt-ita.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/vf/public/fourier/futmii.vf
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
 INPUT c:/texlive/2017/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm

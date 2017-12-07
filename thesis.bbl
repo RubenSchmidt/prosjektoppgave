@@ -119,6 +119,12 @@ Miao, Q., Liu, T., Song, J., Gong, M., and Yang, Y. (2016).
 \newblock {\em IEEE Transactions on Geoscience and Remote Sensing},
   54(11):6265--6279.
 
+\bibitem[\protect\astroncite{Monagan and Roosli}{1993}]{Monagan1993}
+Monagan, G. and Roosli, M. (1993).
+\newblock {Appropriate base representation using a run graph}.
+\newblock {\em Proceedings of 2nd International Conference on Document Analysis
+  and Recognition (ICDAR '93)}, pages 623--626.
+
 \bibitem[\protect\astroncite{Oka et~al.}{2012}]{Oka2012}
 Oka, S., Garg, A., and Varghese, K. (2012).
 \newblock {Vectorization of contour lines from scanned topographic maps}.
@@ -206,6 +212,12 @@ Visin, F., Kastner, K., Cho, K., Matteucci, M., Courville, A., and Bengio, Y.
 \newblock {ReNet: A Recurrent Neural Network Based Alternative to Convolutional
   Networks}.
 \newblock pages 1--9.
+
+\bibitem[\protect\astroncite{Wenyin and Dori}{1999}]{Wenyin1999}
+Wenyin, L. and Dori, D. (1999).
+\newblock {From Raster to Vectors: Extracting Visual Information from Line
+  Drawings}.
+\newblock {\em Pattern Analysis {\&} Applications}, 2(1):10--21.
 
 \bibitem[\protect\astroncite{Worboys}{2003}]{Worboys2003}
 Worboys, M.~F. (2003).
