@@ -1,7 +1,10 @@
 \chapter{Discussion}
+As we can see from the previous work, little research has been done in regards to using deep CNNs to vectorize scanned raster maps. Most of the related work is also focusing on the extraction of linear features, such as countour lines and roads. 
 
-Little done on raster maps.
+One of the goals must be to get a georeferenced vector as output. Not only the vector. 
 
 Lot of training data needed, for custom maps this is a one time usecase
 
 Use already digitized data, in a sort of microtasking way to generate enough training data.
+
+Proposed method is to generate training set of the existing vectorized maps, however there is a problem with that the PDFs are not georeferenced. Only the bounding area of the zone is vectorized, we therefore have to locate the zoning area within the PDF to make a training image that is the same size as the input PDF.

@@ -1,9 +1,5 @@
 \chapter{Previous work - Rastermap Vectorization}
-Image segmention has come a long way on images of normal everyday objects with deep CNNs. However none of the reviewed papers use their networks on raster maps. Not a lot of work has been done in regards to vectorization of raster maps using neural networks. However there has been a fair amount of research done on other techniques.
-
-More work on satellite images.
-
-Non artificial methods 
+Image segmention has come a long way on images of normal everyday objects with deep CNNs. However none of the reviewed papers use their networks on raster maps. Not a lot of work has been done in regards to vectorization of raster maps using neural networks. However there has been a fair amount of research done on other image analysis techniques.
 
 \section{Non-artifical intelligence methods}
 
@@ -20,22 +16,10 @@ The pre-processed image is then converted to vector format with Geospatial Data 
 \citeauthor{Miao2016}\cite{Miao2016} propose a \emph{superpixel}\cite{Ren2003} approach to extract height curves from raster maps. Their method, named \emph{Guided Superpixel Method in Topographic Map}(GSM-TM), consists of three parts: Linear feature extraction, boundary detection, and guided watershed transform. For the linear feature extraction, they merge two negative and two positive Gaussian filters. For the boundary extraction, they use a technique of color boundary detection proposed by \citeauthor{Yang2013}\cite{Yang2013}. The guided watershed transform was introduced since standard watershed is very sensitive to weak boundaries. The guided part consist of modifying the boundaries obtained in the boundary detection step with the lines obtained in the linear feature extraction to make the boundaries clearer before the watershed transform. The results show that the proposed GSM-TM method performs better than the other superpixel algorithms they compare with.
 
 
-\subsection{Multi stage system}
-\cite{Oka2012}
+%\citeauthor{Godfrey2015}\cite{Godfrey2015} %
 
 
 \section{Artificial intelligence methods}
 
 \subsection{VecNET}
-(Maybe not even relevant because of bad quality of paper and use of ANN?)
-
-VecNet proposed by \citeauthor{Karabork2008} in 2008 is one of few examples of vectorization of cartographic raster maps using a neural network. The authors present a three-step process consisting of thinning, line tracking with ANN and simplification. The main goal of the network is to find the critical points of objects, that is, to find breakage points of lines. They use an ANN with an input layer, a hidden layer and an output layer to classify. The training set is very small with only 16 samples. The output layer is a single vector with size 12, where the 8 first places represent an 8-way chain code of directions (the direction the line is following) and the last four represent a prediction of where the next pixel is going to be. It evaluates if the point is critical by checking if the last 8-way direction is different from the one currently calculated. If the point is critical, they store it.
-
-The algorithm is tested on a single raster map only consisting of lines and does not perform better than a sparse pixel algorithm, but manages to get acceptable results according to the authors.
-
-\subsection{Knowledge based system}
-\cite{Lee2000}
-
-\cite{Song2000}
-
-
+VecNet proposed by \citeauthor{Karabork2008} in 2008 is one of few examples of vectorization of cartographic raster maps using a neural network. The authors present a three-step process consisting of thinning, line tracking with ANN and simplification. The main goal of the network is to find the critical points of objects, that is, to find breakage points of lines. They use an ANN with an input layer, a hidden layer and an output layer to classify. The training set is very small with only 16 samples. The output layer is a single vector with size 12, where the 8 first places represent an 8-way chain code of directions (the direction the line is following) and the last four represent a prediction of where the next pixel is going to be. It evaluates if the point is critical by checking if the last 8-way direction is different from the one currently calculated. If the point is critical, they store it. The algorithm is tested on a single raster map only consisting of lines and does not perform better than a sparse pixel algorithm, but manages to get acceptable results according to the authors.

@@ -10,23 +10,23 @@ A level-1 auxiliary file: acronyms.aux
 A level-1 auxiliary file: appendix-b.aux
 The style file: apa.bst
 Database file #1: library.bib
-Repeated entry---line 132 of file library.bib
- : @article{Chiang2013
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 388 of file library.bib
+Repeated entry---line 106 of file library.bib
  : @article{Iosifescu2016
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 575 of file library.bib
- : @article{Karabork2008
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 642 of file library.bib
+Repeated entry---line 242 of file library.bib
  : @misc{scan2cad2009
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 794 of file library.bib
+Repeated entry---line 367 of file library.bib
+ : @article{Chiang2013
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 531 of file library.bib
+ : @article{Karabork2008
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 558 of file library.bib
  : @misc{powertrace2016
  :                     ,
 I'm skipping whatever remains of this entry
@@ -52,36 +52,36 @@ Warning--empty journal in Yu2015
 Warning--empty journal in Zeiler2011
 You've used 46 entries,
             1940 wiz_defined-function locations,
-            730 strings with 11245 characters,
-and the built_in function-call counts, 18943 in all, are:
-= -- 1838
-> -- 868
-< -- 35
-+ -- 297
-- -- 296
-* -- 1663
-:= -- 3265
+            731 strings with 11274 characters,
+and the built_in function-call counts, 18825 in all, are:
+= -- 1829
+> -- 852
+< -- 37
++ -- 291
+- -- 290
+* -- 1646
+:= -- 3244
 add.period$ -- 123
 call.type$ -- 46
-change.case$ -- 376
+change.case$ -- 373
 chr.to.int$ -- 45
 cite$ -- 66
 duplicate$ -- 697
-empty$ -- 1191
-format.name$ -- 362
-if$ -- 3650
+empty$ -- 1188
+format.name$ -- 358
+if$ -- 3630
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 39
 newline$ -- 218
 num.names$ -- 138
-pop$ -- 363
+pop$ -- 358
 preamble$ -- 1
-purify$ -- 378
+purify$ -- 375
 quote$ -- 0
-skip$ -- 573
+skip$ -- 575
 stack$ -- 0
-substring$ -- 1237
+substring$ -- 1228
 swap$ -- 163
 text.length$ -- 15
 text.prefix$ -- 0

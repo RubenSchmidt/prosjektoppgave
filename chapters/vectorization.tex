@@ -12,18 +12,8 @@ Raster data is structured as an array of grid cells, also referred to as pixels.
 
 There are multiple reasons for storing data in vector format: The geographic accuracy is higher since it is not dependent on grid size, it allows for efficient encoding of topology, an important aspect when doing analysis that utilizes topologic relations, such as proximity and network analysis, vector data allows for storage of attributes in the data, giving us another dimension of information and the storage size is smaller.
 
-There are multiple different techniques for vectorization. Some of the well known are:
+There are multiple different techniques for vectorization. We will now look at some of the well known ones.
 
-\begin{itemize}
-	\item Hough Transform based methods
-	\item Thinning based methods
-	\item Contour based methods
-	\item Run-graph based methods
-	\item Mesh pattern based methods
-	\item Sparse-pixel based methods
-\end{itemize}
-
-All these have different properties and it is important to choose the one that is best for the specific problem. 
 
 \section{Hough Transform}
 The Hough Transform can isolate features of particular shape within images. The user must describe the desired feature in a parametric form, therefore the most common application of Hough Transform is to detect regular curves such as lines and circles. The technique is known to be tolerant of image noise and gaps in the feature boundary.
@@ -37,8 +27,26 @@ Thinning is a morphologic operation that is used to remove foreground pixels fro
 This method aim at lowering the computational cost compared to thinning. The main idea is to find edges before calculating the middle point that is between two opposite parallel edges. A chain of middle points represent the medial axis. It has to use a edge detection algorithm before extracting the middle points between the edges. A problem with the contour based methods is how they deal with junctions. It is likely to miss junctions that are crossing at a small angle and it has difficulties with cross intersections where four lines meet \cite{Wenyin1999}. It is thus not suited for vectorization of curves and crossing lines.
 
 \section{Run-graph}
-Run-graph is a semi-vector representation of the raster image \cite{Monagan1993}. It examines the raster in either row or column direction in what is defined as horizontal and vertical \emph{runs}. A horizontal run is a maximal horizontal sequence of black pixels. A vertical run is a maximal vertical sequence of black pixels. After running, the run-graph is composed of edge areas that represent line segments and node areas and touching points that correspond to endpoints and junctions. The line extraction from the graph attempts to minimize the area of the node and maximize 
+Run-graph is a semi-vector representation of the raster image \cite{Monagan1993}. It examines the raster in either row or column direction in what is defined as horizontal and vertical \emph{runs}. A horizontal run is a maximal horizontal sequence of black pixels. A vertical run is a maximal vertical sequence of black pixels. After running, the run-graph is composed of edge areas that represent line segments and node areas and touching points that correspond to endpoints and junctions. The line extraction from the graph attempts to minimize the area of the node and maximize the length of the connected edges.
+
+TODO LITT MER HER
 
 \section{Mesh pattern}
+Mesh pattern was introduced by \citeauthor{Lin1985}\cite{Lin1985}. The idea is to divide the image in to a mesh and check the distribution of black pixels at the border of each mesh unit. Using the patterns along the border, a control map is created. Lines are then extracted from the control maps by comparing them to characteristic patterns in a pattern database. Unknown patterns are labeled with question marks. These areas are analyzed pixel by pixel to determine where the line goes. In \autoref{fig:meshpattern} we can see the process of generating a mesh, extracting the control maps and filling the lines based on the analysis of control maps. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{fig/meshpattern.png}
+	\captionsource{Mesh pattern line extraction. (a) image and mesh, (b) mesh pattern labels and control map, (c) lines extracted by analyzing the control map.}{\citeauthor{Wenyin1999}\cite{Wenyin1999}}
+	\label{fig:meshpattern}
+\end{figure}
 
 \section{Sparse-pixel}
+The first of these algorithms was the Orthagonal Zig-Zag (OZZ) introduced by \citeauthor{Dori1997}. The basic idea of the algorithm is to track a single pixel wide "beam of light" which turns orthagonally each time it hits an edge, the same way light travels in a fibre-optic cable. In the algorithm the bream changes direction if it encounters white pixels or the length of the beam exceeds a predefined threshold. If the threshold is hit, two new beams are emitted orthagonally from the point. This can be seen in \autoref{fig:zigzag}. The midtpoint of the runs are also recorded, used to reconstruct the line, corner correction and merger of crossing lines. \citeauthor{Wenyin1996} improved the OZZ method with Sparse Pixel Vectorization (SPV). There were three main improvements: The procedure begins with a reliable medial axis point found by a separate procedure for each black area, a general following procedure is used for all cases of OZZ, i.e. Vertical, horizontal and diagonal following and a junction recovery procedure is applied whenever a junction is encountered during following.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{fig/zigzag.png}
+	\captionsource{Orthagonal Zig-Zag}{\citeauthor{Wenyin1999}\cite{Wenyin1999}}
+	\label{fig:zigzag}
+\end{figure}

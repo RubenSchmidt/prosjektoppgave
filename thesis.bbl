@@ -36,6 +36,12 @@ Chiang, Y.~Y. and Knoblock, C.~A. (2013).
 \newblock {\em International Journal on Document Analysis and Recognition},
   16(1):55--81.
 
+\bibitem[\protect\astroncite{Dori}{1997}]{Dori1997}
+Dori, D. (1997).
+\newblock {Orthogonal Zig-Zag: An algorithm for vectorizing engineering
+  drawings compared with Hough Transform}.
+\newblock {\em Advances in Engineering Software}, 28(1):11--24.
+
 \bibitem[\protect\astroncite{Everingham et~al.}{2010}]{Everingham2010}
 Everingham, M., {Van Gool}, L., Williams, C.~K., Winn, J., and Zisserman, A.
   (2010).
@@ -96,18 +102,17 @@ Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2012).
 \newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
 \newblock {\em Advances In Neural Information Processing Systems}, pages 1--9.
 
-\bibitem[\protect\astroncite{Lee et~al.}{2000}]{Lee2000}
-Lee, K.~H., Cho, S.~B., and Choy, Y.~C. (2000).
-\newblock {Automated vectorization of cartographic maps by a knowledge-based
-  system}.
-\newblock {\em Engineering Applications of Artificial Intelligence},
-  13(2):165--178.
-
 \bibitem[\protect\astroncite{Leyk and Boesch}{2010}]{Leyk2010}
 Leyk, S. and Boesch, R. (2010).
 \newblock {Colors of the past: Color image segmentation in historical
   topographic maps based on homogeneity}.
 \newblock {\em GeoInformatica}, 14(1):1--21.
+
+\bibitem[\protect\astroncite{Lin et~al.}{1985}]{Lin1985}
+Lin, X., Shimotsuji, S., Minoh, M., and Sakai, T. (1985).
+\newblock {Efficient diagram understanding with characteristic pattern
+  detection}.
+\newblock {\em Computer Vision, Graphics and Image Processing}, 30(1):84--106.
 
 \bibitem[\protect\astroncite{Long et~al.}{2014}]{Long2014}
 Long, J., Shelhamer, E., and Darrell, T. (2014).
@@ -124,11 +129,6 @@ Monagan, G. and Roosli, M. (1993).
 \newblock {Appropriate base representation using a run graph}.
 \newblock {\em Proceedings of 2nd International Conference on Document Analysis
   and Recognition (ICDAR '93)}, pages 623--626.
-
-\bibitem[\protect\astroncite{Oka et~al.}{2012}]{Oka2012}
-Oka, S., Garg, A., and Varghese, K. (2012).
-\newblock {Vectorization of contour lines from scanned topographic maps}.
-\newblock {\em Automation in Construction}, 22:192--202.
 
 \bibitem[\protect\astroncite{OSGeo}{}]{OSGeo}
 OSGeo.
@@ -184,12 +184,6 @@ Simonyan, K. and Zisserman, A. (2014).
 \newblock {Very Deep Convolutional Networks for Large-Scale Image Recognition}.
 \newblock pages 1--14.
 
-\bibitem[\protect\astroncite{Song et~al.}{2000}]{Song2000}
-Song, J., Su, F., Chen, J., and Cai, S. (2000).
-\newblock {A Knowledge-Aided Line Network Oriented Vectorisation Method for
-  Engineering Drawings}.
-\newblock {\em Pattern Analysis {\&} Applications}, 3(2):142--152.
-
 \bibitem[\protect\astroncite{Srivastava et~al.}{2014}]{Srivastava2014}
 Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., and Salakhutdinov,
   R. (2014).
@@ -212,6 +206,13 @@ Visin, F., Kastner, K., Cho, K., Matteucci, M., Courville, A., and Bengio, Y.
 \newblock {ReNet: A Recurrent Neural Network Based Alternative to Convolutional
   Networks}.
 \newblock pages 1--9.
+
+\bibitem[\protect\astroncite{Wenyin and Dori}{1996}]{Wenyin1996}
+Wenyin, L. and Dori, D. (1996).
+\newblock {Sparse pixel tracking: A fast vectorization algorithm applied to
+  engineering drawings}.
+\newblock {\em Proceedings - International Conference on Pattern Recognition},
+  3:808--812.
 
 \bibitem[\protect\astroncite{Wenyin and Dori}{1999}]{Wenyin1999}
 Wenyin, L. and Dori, D. (1999).
