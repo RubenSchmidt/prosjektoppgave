@@ -2,46 +2,44 @@ This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 A level-1 auxiliary file: front.aux
-A level-1 auxiliary file: preface.aux
-A level-1 auxiliary file: acknowledgment.aux
 A level-1 auxiliary file: summary.aux
+A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: chapters/intro.aux
-A level-1 auxiliary file: acronyms.aux
-A level-1 auxiliary file: appendix-b.aux
-The style file: apa.bst
+The style file: plainnat.bst
 Database file #1: library.bib
-Repeated entry---line 106 of file library.bib
- : @article{Iosifescu2016
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 242 of file library.bib
- : @misc{scan2cad2009
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 367 of file library.bib
- : @article{Chiang2013
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 531 of file library.bib
+Repeated entry---line 970 of file library.bib
  : @article{Karabork2008
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 558 of file library.bib
+Repeated entry---line 982 of file library.bib
  : @misc{powertrace2016
  :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1000 of file library.bib
+ : @misc{scan2cad2009
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1014 of file library.bib
+ : @article{Iosifescu2016
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1035 of file library.bib
+ : @article{Chiang2013
+ :                    ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in Badrinarayanan2015
 Warning--empty journal in Chen2014
 Warning--empty journal in Chen2016
 Warning--empty journal in Chen2017a
+Warning--empty year in Cord
 Warning--empty journal in Garcia-Garcia2017
-Warning--empty year in Henderson
 Warning--empty journal in Henderson
+Warning--empty year in Henderson
+Warning--empty year in Henderson
 Warning--empty journal in Hinton2015
 Warning--empty year in Li
 Warning--empty journal in Krahenbuhl2012a
 Warning--empty journal in Long2014
-Warning--empty year in OSGeo
 Warning--there's a number but no volume in Sabour2017
 Warning--empty journal in Simonyan2014a
 Warning--empty journal in Sun2017
@@ -50,45 +48,45 @@ Warning--empty journal in Visin2015
 Warning--empty publisher in Worboys2003
 Warning--empty journal in Yu2015
 Warning--empty journal in Zeiler2011
-You've used 46 entries,
-            1940 wiz_defined-function locations,
-            731 strings with 11274 characters,
-and the built_in function-call counts, 18825 in all, are:
-= -- 1829
-> -- 852
-< -- 37
-+ -- 291
-- -- 290
-* -- 1646
-:= -- 3244
-add.period$ -- 123
-call.type$ -- 46
-change.case$ -- 373
-chr.to.int$ -- 45
-cite$ -- 66
-duplicate$ -- 697
-empty$ -- 1188
-format.name$ -- 358
-if$ -- 3630
+You've used 47 entries,
+            2773 wiz_defined-function locations,
+            956 strings with 15408 characters,
+and the built_in function-call counts, 24341 in all, are:
+= -- 2259
+> -- 1516
+< -- 36
++ -- 513
+- -- 465
+* -- 2020
+:= -- 3773
+add.period$ -- 211
+call.type$ -- 47
+change.case$ -- 294
+chr.to.int$ -- 46
+cite$ -- 115
+duplicate$ -- 1010
+empty$ -- 1775
+format.name$ -- 534
+if$ -- 5094
 int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 39
-newline$ -- 218
-num.names$ -- 138
-pop$ -- 358
+int.to.str$ -- 1
+missing$ -- 40
+newline$ -- 313
+num.names$ -- 188
+pop$ -- 572
 preamble$ -- 1
-purify$ -- 375
+purify$ -- 249
 quote$ -- 0
-skip$ -- 575
+skip$ -- 860
 stack$ -- 0
-substring$ -- 1228
-swap$ -- 163
+substring$ -- 795
+swap$ -- 129
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 272
-warning$ -- 20
-while$ -- 165
+type$ -- 507
+warning$ -- 21
+while$ -- 216
 width$ -- 0
-write$ -- 541
+write$ -- 724
 (There were 5 error messages)

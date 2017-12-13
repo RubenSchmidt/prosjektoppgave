@@ -24,9 +24,8 @@
 \include{front} % This is the titlepage
 \setcounter{page}{0}
 \pagenumbering{roman}
-\include{preface}
-\include{acknowledgment}
 \include{summary}
+\include{preface}
 \tableofcontents
 \setcounter{page}{0}
 \pagenumbering{arabic}
@@ -47,18 +46,16 @@
 \input{chapters/semantic_segmentation}
 \input{chapters/previouswork-segmentation}
 \input{chapters/previouswork-vectorization}
-\input{chapters/discussion}
 \input{chapters/implementation}
+\input{chapters/discussion}
 \input{chapters/conclusion}
 
 % Include more chapters as required.
 %%=========================================
-\appendix
-\include{acronyms}
-\include{appendix-b}
+
 % Include more appendices as required.
 %%=========================================
-\bibliographystyle{apa}
+\bibliographystyle{plainnat}
 \addcontentsline{toc}{chapter}{\bibname}
 \bibliography{library}  
 %%=========================================

@@ -1,12 +1,11 @@
 \chapter{Introduction}
  %Motivasjonen min for å gjøre dette her 
-Raster to vector or digitizing is a central part of what GIS specialists do. Digitizing is the task of extracting vector layers from raster maps so that they can be used for further analysis, and is often a time consuming manual process. With the vast amount of raster maps available online, we are losing valuable information because we are unable to process them automatically.
-
-Even though there are multiple software products in the market today concerning the problem of converting a raster image to a vector image such as Scan2Cad \cite{scan2cad2009} and Powertrace \cite{powertrace2016}. These products only focus on making vectorized boundaries of homogenous color areas, such as those in a logo and do not focus on the problem of digitizing raster maps with spatial data. R2V \cite{Wu1999} is the only product the author found that focus on vectorization of raster maps in GIS application. 
-
-Problems occur when the raster images not only consists of isolated objects that are easy to distinguish but contains a spatial structure, overlapping geometries, and background layers. The multilayered nature of raster maps in addition to varying image quality makes automatic vectorization a really hard problem.
-
-Deep convolutional neural networks (Deep CNNs), are top performers of semantic image labelling (CITE) and can, therefore, be a possible solution to the digitalization problem. Beeing an instance of supervised learning, deep convolutional networks require proper labelled training data. This is often generated manually for each case. If one could train the networks with some of the digitized raster maps, and then use them to digitize the rest of the maps for us, this would be a great time saver.
-
-In this paper we will look at the state of the art in feature extraction with deep convolutional networks, look at the data needed to train the networks sufficiently, implement a first version of a digitizing network and look at the performance of this.
-
+ Raster to vector or vectorization is a central part of what GIS specialists do. Vectorization is the task of extracting vector layers from raster maps so that they can be used for further analysis, and is often a time consuming manual process. With the vast amount of raster maps available online, we are losing valuable information because we are unable to process them automatically.
+ 
+ Even though there are multiple software products on the market today concerning the problem of converting a raster image to a vector image such as Scan2Cad \cite{scan2cad2009} and Powertrace \cite{powertrace2016}. These products only focus on making vectorized boundaries of homogenous color areas, such as those in a logo and do not focus on the problem of digitizing raster maps with spatial data. R2V \cite{Wu1999} is the only product the author found that focus on vectorization of raster maps in GIS application. 
+ 
+ Problems occur when the raster images not only consists of isolated objects that are easy to distinguish but contains a spatial structure, overlapping geometries, and background layers. The multilayered nature of raster maps in addition to varying image quality makes automatic vectorization a really hard problem.
+ 
+ Deep convolutional neural networks (DCNN), are top performers of semantic image labeling \citet{Krizhevsky2012} and can, therefore, be a possible solution to the vectorization problem. DCNN require large amounts of properly labeled training data. This is often generated manually for each case with, for instance, crowd-sourcing tools such as Amazon's Mechanical Turk \cite{Krizhevsky2012}.
+ 
+ In this paper, we will look at the state of the art in vectorization of raster maps and feature extraction with DCNN, look at the data needed to train the networks sufficiently and investigate the considerations one would have to take into account when implementing a network.

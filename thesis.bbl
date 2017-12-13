@@ -1,255 +1,381 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{47}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[\protect\astroncite{Badrinarayanan et~al.}{2015}]{Badrinarayanan2015}
-Badrinarayanan, V., Kendall, A., and Cipolla, R. (2015).
+\bibitem[Badrinarayanan et~al.(2015)Badrinarayanan, Kendall, and
+  Cipolla]{Badrinarayanan2015}
+Vijay Badrinarayanan, Alex Kendall, and Roberto Cipolla.
 \newblock {SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image
   Segmentation}.
-\newblock pages 1--14.
+\newblock pages 1--14, 2015.
+\newblock ISSN 0162-8828.
+\newblock \doi{10.1109/TPAMI.2016.2644615}.
+\newblock URL \url{http://arxiv.org/abs/1511.00561}.
 
-\bibitem[\protect\astroncite{B{\o}}{2009}]{Bo2009}
-B{\o}, T. (2009).
+\bibitem[B{\o}(2009)]{Bo2009}
+Tore B{\o}.
 \newblock {En veileder basert p{\aa} praktiske erfaringer fra Telemark og
-  Vestfold}.
+  Vestfold}, 2009.
+\newblock URL
+  \url{https://kartverket.no/globalassets/plan/digitalisering-av-reguleringsplaner-telemark-vestfold.pdf}.
 
-\bibitem[\protect\astroncite{Chen et~al.}{2014}]{Chen2014}
-Chen, L.-C., Papandreou, G., Kokkinos, I., Murphy, K., and Yuille, A.~L.
-  (2014).
+\bibitem[Chen et~al.(2014)Chen, Papandreou, Kokkinos, Murphy, and
+  Yuille]{Chen2014}
+Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and
+  Alan~L. Yuille.
 \newblock {Semantic Image Segmentation with Deep Convolutional Nets and Fully
   Connected CRFs}.
-\newblock pages 1--14.
+\newblock pages 1--14, 2014.
+\newblock ISSN 0162-8828.
+\newblock \doi{10.1109/TPAMI.2017.2699184}.
+\newblock URL \url{http://arxiv.org/abs/1412.7062}.
 
-\bibitem[\protect\astroncite{Chen et~al.}{2016}]{Chen2016}
-Chen, L.-C., Papandreou, G., Kokkinos, I., Murphy, K., and Yuille, A.~L.
-  (2016).
+\bibitem[Chen et~al.(2016)Chen, Papandreou, Kokkinos, Murphy, and
+  Yuille]{Chen2016}
+Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos, Kevin Murphy, and
+  Alan~L. Yuille.
 \newblock {DeepLab: Semantic Image Segmentation with Deep Convolutional Nets,
   Atrous Convolution, and Fully Connected CRFs}.
-\newblock pages 1--14.
+\newblock pages 1--14, 2016.
+\newblock ISSN 0162-8828.
+\newblock \doi{10.1109/TPAMI.2017.2699184}.
+\newblock URL \url{http://arxiv.org/abs/1606.00915}.
 
-\bibitem[\protect\astroncite{Chen et~al.}{2017}]{Chen2017a}
-Chen, L.-C., Papandreou, G., Schroff, F., and Adam, H. (2017).
+\bibitem[Chen et~al.(2017)Chen, Papandreou, Schroff, and Adam]{Chen2017a}
+Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam.
 \newblock {Rethinking Atrous Convolution for Semantic Image Segmentation}.
+\newblock 2017.
+\newblock URL \url{http://arxiv.org/abs/1706.05587}.
 
-\bibitem[\protect\astroncite{Chiang and Knoblock}{2013}]{Chiang2013}
-Chiang, Y.~Y. and Knoblock, C.~A. (2013).
+\bibitem[Chiang and Knoblock(2013)]{Chiang2013}
+Yao~Yi Chiang and Craig~A. Knoblock.
 \newblock {A general approach for extracting road vector data from raster
   maps}.
-\newblock {\em International Journal on Document Analysis and Recognition},
-  16(1):55--81.
+\newblock \emph{International Journal on Document Analysis and Recognition},
+  16\penalty0 (1):\penalty0 55--81, 2013.
+\newblock ISSN 14332833.
+\newblock \doi{10.1007/s10032-011-0177-1}.
 
-\bibitem[\protect\astroncite{Dori}{1997}]{Dori1997}
-Dori, D. (1997).
+\bibitem[Cord et~al.()Cord, Durand, and Thome]{Cord}
+Matthieu Cord, Thibaut Durand, and Nicolas Thome.
+\newblock {Deep learning and weak supervision for image classification}.
+\newblock URL
+  \url{http://thoth.inrialpes.fr/workshop/thoth2016/slides/cord.pdf}.
+
+\bibitem[Dori(1997)]{Dori1997}
+Dov Dori.
 \newblock {Orthogonal Zig-Zag: An algorithm for vectorizing engineering
   drawings compared with Hough Transform}.
-\newblock {\em Advances in Engineering Software}, 28(1):11--24.
+\newblock \emph{Advances in Engineering Software}, 28\penalty0 (1):\penalty0
+  11--24, 1997.
+\newblock ISSN 09659978.
+\newblock \doi{10.1016/S0965-9978(96)00035-X}.
 
-\bibitem[\protect\astroncite{Everingham et~al.}{2010}]{Everingham2010}
-Everingham, M., {Van Gool}, L., Williams, C.~K., Winn, J., and Zisserman, A.
-  (2010).
+\bibitem[Everingham et~al.(2010)Everingham, {Van Gool}, Williams, Winn, and
+  Zisserman]{Everingham2010}
+Mark Everingham, Luc {Van Gool}, Christopher~K.I. Williams, John Winn, and
+  Andrew Zisserman.
 \newblock {The pascal visual object classes (VOC) challenge}.
-\newblock {\em International Journal of Computer Vision}, 88(2):303--338.
+\newblock \emph{International Journal of Computer Vision}, 88\penalty0
+  (2):\penalty0 303--338, 2010.
+\newblock ISSN 09205691.
+\newblock \doi{10.1007/s11263-009-0275-4}.
 
-\bibitem[\protect\astroncite{Garcia-Garcia et~al.}{2017}]{Garcia-Garcia2017}
-Garcia-Garcia, A., Orts-Escolano, S., Oprea, S., Villena-Martinez, V., and
-  Garcia-Rodriguez, J. (2017).
+\bibitem[Garcia-Garcia et~al.(2017)Garcia-Garcia, Orts-Escolano, Oprea,
+  Villena-Martinez, and Garcia-Rodriguez]{Garcia-Garcia2017}
+Alberto Garcia-Garcia, Sergio Orts-Escolano, Sergiu Oprea, Victor
+  Villena-Martinez, and Jose Garcia-Rodriguez.
 \newblock {A Review on Deep Learning Techniques Applied to Semantic
   Segmentation}.
-\newblock pages 1--23.
+\newblock pages 1--23, 2017.
+\newblock \doi{10.1007/978-1-4471-4640-7}.
+\newblock URL \url{http://arxiv.org/abs/1704.06857}.
 
-\bibitem[\protect\astroncite{He et~al.}{2015}]{He2015}
-He, K., Zhang, X., Ren, S., and Sun, J. (2015).
+\bibitem[He et~al.(2015)He, Zhang, Ren, and Sun]{He2015}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
 \newblock {Deep Residual Learning for Image Recognition}.
-\newblock {\em Multimedia Tools and Applications}, pages 1--17.
+\newblock \emph{Multimedia Tools and Applications}, pages 1--17, 2015.
+\newblock ISSN 15737721.
+\newblock \doi{10.1007/s11042-017-4440-4}.
 
-\bibitem[\protect\astroncite{Henderson et~al.}{}]{Henderson}
-Henderson, T.~C., Linton, T., Potupchik, S., and Ostanin, A.
+\bibitem[Henderson et~al.()Henderson, Linton, Potupchik, and
+  Ostanin]{Henderson}
+Thomas~C Henderson, Trevor Linton, Sergey Potupchik, and Andrei Ostanin.
 \newblock {Automatic Segmentation of Semantic Classes in Raster Map Images}.
 
-\bibitem[\protect\astroncite{Hinton et~al.}{2015}]{Hinton2015}
-Hinton, G., Vinyals, O., and Dean, J. (2015).
+\bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{Hinton2015}
+Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
 \newblock {Distilling the Knowledge in a Neural Network}.
-\newblock pages 1--9.
+\newblock pages 1--9, 2015.
+\newblock ISSN 0022-2488.
+\newblock \doi{10.1063/1.4931082}.
+\newblock URL \url{http://arxiv.org/abs/1503.02531}.
 
-\bibitem[\protect\astroncite{Iosifescu et~al.}{2016}]{Iosifescu2016}
-Iosifescu, I., Tsorlini, A., and Hurni, L. (2016).
+\bibitem[Iosifescu et~al.(2016)Iosifescu, Tsorlini, and Hurni]{Iosifescu2016}
+Ionut Iosifescu, Angeliki Tsorlini, and Lorenz Hurni.
 \newblock {Towards a comprehensive methodology for automatic vectorization of
   raster historical maps}.
-\newblock {\em e-Perimetron}, 11(2):57--76.
+\newblock \emph{e-Perimetron}, 11\penalty0 (2):\penalty0 57--76, 2016.
 
-\bibitem[\protect\astroncite{Karabork et~al.}{2008}]{Karabork2008}
-Karabork, H., Kocer, B., Bildirici, I.~O., Yildiz, F., and Aktas, E. (2008).
+\bibitem[Karabork et~al.(2008)Karabork, Kocer, Bildirici, Yildiz, and
+  Aktas]{Karabork2008}
+H~Karabork, B.~Kocer, I~O Bildirici, F.~Yildiz, and E.~Aktas.
 \newblock {A neural network algorithm for vectorization of 2D maps}.
-\newblock {\em [APRS'08] International Archives of Photogrammetry and Remote
-  Sensing}, XXXVII(B2):473--480.
+\newblock \emph{[APRS'08] International Archives of Photogrammetry and Remote
+  Sensing}, XXXVII\penalty0 (B2):\penalty0 473--480, 2008.
 
-\bibitem[\protect\astroncite{Karpathy}{}]{Li}
-Karpathy, A.
+\bibitem[Karpathy()]{Li}
+Andrej Karpathy.
 \newblock {CS231n Convolutional Neural Networks for Visual Recognition}.
+\newblock URL \url{http://cs231n.github.io/neural-networks-1/}.
 
-\bibitem[\protect\astroncite{{Kommunalt
-  Planregister}}{2009}]{Kommunaltplanregister2009}
-{Kommunalt Planregister} (2009).
-\newblock {{\S} 2-2. Kommunalt planregister}.
+\bibitem[{Kommunalt Planregister}(2009)]{Kommunaltplanregister2009}
+{Kommunalt Planregister}.
+\newblock {{\S} 2-2. Kommunalt planregister}, 2009.
+\newblock URL
+  \url{https://www.regjeringen.no/no/dokument/dep/kmd/veiledninger{\_}brosjyrer/2009/lovkommentar-til-plandelen-i-/kapittel-2-krav-om-kartgrunnlag-stedfest/-2-2-kommunalt-planregister/id556741/}.
 
-\bibitem[\protect\astroncite{Kr{\"{a}}henb{\"{u}}hl and
-  Koltun}{2012}]{Krahenbuhl2012a}
-Kr{\"{a}}henb{\"{u}}hl, P. and Koltun, V. (2012).
+\bibitem[Kr{\"{a}}henb{\"{u}}hl and Koltun(2012)]{Krahenbuhl2012a}
+Philipp Kr{\"{a}}henb{\"{u}}hl and Vladlen Koltun.
 \newblock {Efficient Inference in Fully Connected CRFs with Gaussian Edge
   Potentials}.
-\newblock pages 1--9.
+\newblock pages 1--9, 2012.
+\newblock ISSN 9781618395993.
+\newblock URL \url{http://arxiv.org/abs/1210.5644}.
 
-\bibitem[\protect\astroncite{Krizhevsky et~al.}{2012}]{Krizhevsky2012}
-Krizhevsky, A., Sutskever, I., and Hinton, G.~E. (2012).
+\bibitem[Krizhevsky et~al.(2012)Krizhevsky, Sutskever, and
+  Hinton]{Krizhevsky2012}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
 \newblock {ImageNet Classification with Deep Convolutional Neural Networks}.
-\newblock {\em Advances In Neural Information Processing Systems}, pages 1--9.
+\newblock \emph{Advances In Neural Information Processing Systems}, pages 1--9,
+  2012.
+\newblock ISSN 10495258.
+\newblock \doi{http://dx.doi.org/10.1016/j.protcy.2014.09.007}.
 
-\bibitem[\protect\astroncite{Leyk and Boesch}{2010}]{Leyk2010}
-Leyk, S. and Boesch, R. (2010).
+\bibitem[Leyk and Boesch(2010)]{Leyk2010}
+Stefan Leyk and Ruedi Boesch.
 \newblock {Colors of the past: Color image segmentation in historical
   topographic maps based on homogeneity}.
-\newblock {\em GeoInformatica}, 14(1):1--21.
+\newblock \emph{GeoInformatica}, 14\penalty0 (1):\penalty0 1--21, 2010.
+\newblock ISSN 13846175.
+\newblock \doi{10.1007/s10707-008-0074-z}.
 
-\bibitem[\protect\astroncite{Lin et~al.}{1985}]{Lin1985}
-Lin, X., Shimotsuji, S., Minoh, M., and Sakai, T. (1985).
+\bibitem[Lin et~al.(2014)Lin, Maire, Belongie, Hays, Perona, Ramanan,
+  Doll{\'{a}}r, and Zitnick]{Lin2014}
+Tsung~Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva
+  Ramanan, Piotr Doll{\'{a}}r, and C.~Lawrence Zitnick.
+\newblock {Microsoft COCO: Common objects in context}.
+\newblock \emph{Lecture Notes in Computer Science (including subseries Lecture
+  Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)}, 8693
+  LNCS\penalty0 (PART 5):\penalty0 740--755, 2014.
+\newblock ISSN 16113349.
+\newblock \doi{10.1007/978-3-319-10602-1_48}.
+
+\bibitem[Lin et~al.(1985)Lin, Shimotsuji, Minoh, and Sakai]{Lin1985}
+Xinggang Lin, Shigeyoshi Shimotsuji, Michihiko Minoh, and Toshiyuki Sakai.
 \newblock {Efficient diagram understanding with characteristic pattern
   detection}.
-\newblock {\em Computer Vision, Graphics and Image Processing}, 30(1):84--106.
+\newblock \emph{Computer Vision, Graphics and Image Processing}, 30\penalty0
+  (1):\penalty0 84--106, 1985.
+\newblock ISSN 0734189X.
+\newblock \doi{10.1016/0734-189X(85)90020-9}.
 
-\bibitem[\protect\astroncite{Long et~al.}{2014}]{Long2014}
-Long, J., Shelhamer, E., and Darrell, T. (2014).
+\bibitem[Long et~al.(2014)Long, Shelhamer, and Darrell]{Long2014}
+Jonathan Long, Evan Shelhamer, and Trevor Darrell.
 \newblock {Fully Convolutional Networks for Semantic Segmentation}.
+\newblock 2014.
+\newblock ISSN 01628828.
+\newblock \doi{10.1109/TPAMI.2016.2572683}.
+\newblock URL \url{http://arxiv.org/abs/1411.4038}.
 
-\bibitem[\protect\astroncite{Miao et~al.}{2016}]{Miao2016}
-Miao, Q., Liu, T., Song, J., Gong, M., and Yang, Y. (2016).
+\bibitem[Miao et~al.(2016)Miao, Liu, Song, Gong, and Yang]{Miao2016}
+Qiguang Miao, Tiange Liu, Jianfeng Song, Maoguo Gong, and Yun Yang.
 \newblock {Guided Superpixel Method for Topographic Map Processing}.
-\newblock {\em IEEE Transactions on Geoscience and Remote Sensing},
-  54(11):6265--6279.
+\newblock \emph{IEEE Transactions on Geoscience and Remote Sensing},
+  54\penalty0 (11):\penalty0 6265--6279, 2016.
+\newblock ISSN 01962892.
+\newblock \doi{10.1109/TGRS.2016.2567481}.
 
-\bibitem[\protect\astroncite{Monagan and Roosli}{1993}]{Monagan1993}
-Monagan, G. and Roosli, M. (1993).
+\bibitem[Monagan and Roosli(1993)]{Monagan1993}
+G.~Monagan and M.~Roosli.
 \newblock {Appropriate base representation using a run graph}.
-\newblock {\em Proceedings of 2nd International Conference on Document Analysis
-  and Recognition (ICDAR '93)}, pages 623--626.
+\newblock \emph{Proceedings of 2nd International Conference on Document
+  Analysis and Recognition (ICDAR '93)}, pages 623--626, 1993.
+\newblock \doi{10.1109/ICDAR.1993.395659}.
 
-\bibitem[\protect\astroncite{OSGeo}{}]{OSGeo}
-OSGeo.
-\newblock {GDAL}.
-
-\bibitem[\protect\astroncite{Papandreou}{2015}]{Papandreou2015}
-Papandreou, G. (2015).
+\bibitem[Papandreou(2015)]{Papandreou2015}
+George Papandreou.
 \newblock {Modeling Local and Global Deformations in Deep Learning {\_}
   Epitomic Convolution,Multiple Instance Learning, and SlidingWindow
   Detection}.
-\newblock {\em Cvpr}, pages 390--399.
+\newblock \emph{Cvpr}, pages 390--399, 2015.
 
-\bibitem[\protect\astroncite{{PASCAL VOC}}{2012a}]{PASCALVOC2012}
-{PASCAL VOC} (2012a).
-\newblock {PASCAL VOC2011}.
+\bibitem[{PASCAL VOC}(2012{\natexlab{a}})]{PASCALVOC2012}
+{PASCAL VOC}.
+\newblock {PASCAL VOC2011}, 2012{\natexlab{a}}.
+\newblock URL
+  \url{http://host.robots.ox.ac.uk/pascal/VOC/voc2012/segexamples/index.html}.
 
-\bibitem[\protect\astroncite{{PASCAL VOC}}{2012b}]{PASCALVOC2012a}
-{PASCAL VOC} (2012b).
-\newblock {Segmentation Results: VOC2012}.
+\bibitem[{PASCAL VOC}(2012{\natexlab{b}})]{PASCALVOC2012a}
+{PASCAL VOC}.
+\newblock {Segmentation Results: VOC2012}, 2012{\natexlab{b}}.
+\newblock URL
+  \url{http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11{\&}compid=6{\#}KEY{\_}SegNet}.
 
-\bibitem[\protect\astroncite{Patterson and Gibson}{2017}]{Patterson2017}
-Patterson, J. and Gibson, A. (2017).
-\newblock {\em {Deep Learning: A Practitioner's Approach}}.
-\newblock O'Reilly Media.
+\bibitem[Patterson and Gibson(2017)]{Patterson2017}
+Josh Patterson and Adam Gibson.
+\newblock \emph{{Deep Learning: A Practitioner's Approach}}.
+\newblock O'Reilly Media, 2017.
 
-\bibitem[\protect\astroncite{PowerTRACE}{2016}]{powertrace2016}
-PowerTRACE (2016).
-\newblock {Taking Corel PowerTRACE for a Test Drive – Knowledge Base}.
+\bibitem[PowerTRACE(2016)]{powertrace2016}
+PowerTRACE.
+\newblock {Taking Corel PowerTRACE for a Test Drive – Knowledge Base}, 2016.
+\newblock URL
+  \url{https://support.corel.com/hc/en-us/articles/215943948-Taking-Corel-PowerTRACE-for-a-Test-Drive}.
 
-\bibitem[\protect\astroncite{Ren and Malik}{2003}]{Ren2003}
-Ren, X. and Malik, J. (2003).
+\bibitem[Ren and Malik(2003)]{Ren2003}
+Xiaofeng Ren and J.~Malik.
 \newblock {Learning a classification model for segmentation}.
-\newblock {\em Proceedings Ninth IEEE International Conference on Computer
-  Vision}, 1(c):10--17 vol.1.
+\newblock \emph{Proceedings Ninth IEEE International Conference on Computer
+  Vision}, 1\penalty0 (c):\penalty0 10--17 vol.1, 2003.
+\newblock ISSN 0769519504.
+\newblock \doi{10.1109/ICCV.2003.1238308}.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/xpl/login.jsp?tp={\&}arnumber=1238308{\&}url=http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=1238308}.
 
-\bibitem[\protect\astroncite{Russakovsky et~al.}{2015}]{Russakovsky2015}
-Russakovsky, O., Deng, J., Su, H., Krause, J., Satheesh, S., Ma, S., Huang, Z.,
-  Karpathy, A., Khosla, A., Bernstein, M., Berg, A.~C., and Fei-Fei, L. (2015).
+\bibitem[Russakovsky et~al.(2015)Russakovsky, Deng, Su, Krause, Satheesh, Ma,
+  Huang, Karpathy, Khosla, Bernstein, Berg, and Fei-Fei]{Russakovsky2015}
+Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma,
+  Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein,
+  Alexander~C. Berg, and Li~Fei-Fei.
 \newblock {ImageNet Large Scale Visual Recognition Challenge}.
-\newblock {\em International Journal of Computer Vision}, 115(3):211--252.
+\newblock \emph{International Journal of Computer Vision}, 115\penalty0
+  (3):\penalty0 211--252, 2015.
+\newblock ISSN 15731405.
+\newblock \doi{10.1007/s11263-015-0816-y}.
 
-\bibitem[\protect\astroncite{Sabour et~al.}{2017}]{Sabour2017}
-Sabour, S., Frosst, N., and Hinton, G. (2017).
+\bibitem[Sabour et~al.(2017)Sabour, Frosst, and Hinton]{Sabour2017}
+Sara Sabour, Nicholas Frosst, and Geoffrey Hinton.
 \newblock {Dynamic Routing between Capsules}.
-\newblock {\em Nips}, (Nips).
+\newblock \emph{Nips}, \penalty0 (Nips), 2017.
+\newblock URL \url{https://research.google.com/pubs/pub46351.html}.
 
-\bibitem[\protect\astroncite{Scan2cad}{2009}]{scan2cad2009}
-Scan2cad (2009).
-\newblock {Scan2CAD in Landscape Architecture}.
+\bibitem[Scan2cad(2009)]{scan2cad2009}
+Scan2cad.
+\newblock {Scan2CAD in Landscape Architecture}, 2009.
+\newblock URL
+  \url{https://www.scan2cad.com/user-testimony/scan2cad-in-landscape-architecture/}.
 
-\bibitem[\protect\astroncite{Simonyan and Zisserman}{2014}]{Simonyan2014a}
-Simonyan, K. and Zisserman, A. (2014).
+\bibitem[Simonyan and Zisserman(2014)]{Simonyan2014a}
+Karen Simonyan and Andrew Zisserman.
 \newblock {Very Deep Convolutional Networks for Large-Scale Image Recognition}.
-\newblock pages 1--14.
+\newblock pages 1--14, 2014.
+\newblock ISSN 09505849.
+\newblock \doi{10.1016/j.infsof.2008.09.005}.
+\newblock URL \url{http://arxiv.org/abs/1409.1556}.
 
-\bibitem[\protect\astroncite{Srivastava et~al.}{2014}]{Srivastava2014}
-Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., and Salakhutdinov,
-  R. (2014).
+\bibitem[Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov]{Srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
 \newblock {Dropout: A Simple Way to Prevent Neural Networks from Overfitting}.
-\newblock {\em Journal of Machine Learning Research}, 15:1929--1958.
+\newblock \emph{Journal of Machine Learning Research}, 15:\penalty0 1929--1958,
+  2014.
+\newblock ISSN 15337928.
+\newblock \doi{10.1214/12-AOS1000}.
 
-\bibitem[\protect\astroncite{Sun et~al.}{2017}]{Sun2017}
-Sun, C., Shrivastava, A., Singh, S., and Gupta, A. (2017).
+\bibitem[Sun et~al.(2017)Sun, Shrivastava, Singh, and Gupta]{Sun2017}
+Chen Sun, Abhinav Shrivastava, Saurabh Singh, and Abhinav Gupta.
 \newblock {Revisiting Unreasonable Effectiveness of Data in Deep Learning Era}.
+\newblock 2017.
+\newblock \doi{1707.02968}.
+\newblock URL \url{http://arxiv.org/abs/1707.02968}.
 
-\bibitem[\protect\astroncite{Szegedy et~al.}{2014}]{Szegedy2014}
-Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., Erhan, D.,
-  Vanhoucke, V., Rabinovich, A., Hill, C., and Arbor, A. (2014).
+\bibitem[Szegedy et~al.(2014)Szegedy, Liu, Jia, Sermanet, Reed, Anguelov,
+  Erhan, Vanhoucke, Rabinovich, Hill, and Arbor]{Szegedy2014}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich, Chapel Hill,
+  and Ann Arbor.
 \newblock {Going Deeper with Convolutions}.
-\newblock pages 1--9.
+\newblock pages 1--9, 2014.
+\newblock ISSN 10636919.
+\newblock \doi{10.1109/CVPR.2015.7298594}.
 
-\bibitem[\protect\astroncite{Visin et~al.}{2015}]{Visin2015}
-Visin, F., Kastner, K., Cho, K., Matteucci, M., Courville, A., and Bengio, Y.
-  (2015).
+\bibitem[Visin et~al.(2015)Visin, Kastner, Cho, Matteucci, Courville, and
+  Bengio]{Visin2015}
+Francesco Visin, Kyle Kastner, Kyunghyun Cho, Matteo Matteucci, Aaron
+  Courville, and Yoshua Bengio.
 \newblock {ReNet: A Recurrent Neural Network Based Alternative to Convolutional
   Networks}.
-\newblock pages 1--9.
+\newblock pages 1--9, 2015.
+\newblock ISSN 10450823.
+\newblock \doi{10.1109/CVPR.2016.399}.
+\newblock URL \url{http://arxiv.org/abs/1505.00393}.
 
-\bibitem[\protect\astroncite{Wenyin and Dori}{1996}]{Wenyin1996}
-Wenyin, L. and Dori, D. (1996).
+\bibitem[Wenyin and Dori(1996)]{Wenyin1996}
+Liu Wenyin and Dov Dori.
 \newblock {Sparse pixel tracking: A fast vectorization algorithm applied to
   engineering drawings}.
-\newblock {\em Proceedings - International Conference on Pattern Recognition},
-  3:808--812.
+\newblock \emph{Proceedings - International Conference on Pattern Recognition},
+  3:\penalty0 808--812, 1996.
+\newblock ISSN 10514651.
+\newblock \doi{10.1109/ICPR.1996.547280}.
 
-\bibitem[\protect\astroncite{Wenyin and Dori}{1999}]{Wenyin1999}
-Wenyin, L. and Dori, D. (1999).
+\bibitem[Wenyin and Dori(1999)]{Wenyin1999}
+Liu Wenyin and Dov Dori.
 \newblock {From Raster to Vectors: Extracting Visual Information from Line
   Drawings}.
-\newblock {\em Pattern Analysis {\&} Applications}, 2(1):10--21.
+\newblock \emph{Pattern Analysis {\&} Applications}, 2\penalty0 (1):\penalty0
+  10--21, 1999.
+\newblock ISSN 1433-7541.
+\newblock \doi{10.1007/s100440050010}.
+\newblock URL \url{http://link.springer.com/10.1007/s100440050010}.
 
-\bibitem[\protect\astroncite{Worboys}{2003}]{Worboys2003}
-Worboys, M.~F. (2003).
-\newblock {\em {GIS: A computing perspective}}.
+\bibitem[Worboys(2003)]{Worboys2003}
+Michael~F. Worboys.
+\newblock \emph{{GIS: A computing perspective}}.
+\newblock 2003.
+\newblock ISBN 0-7484-0065-6.
 
-\bibitem[\protect\astroncite{Wu and {Able Software Corp}}{1999}]{Wu1999}
-Wu, Y. and {Able Software Corp} (1999).
-\newblock {R2V}.
+\bibitem[Wu and {Able Software Corp}(1999)]{Wu1999}
+Yecheng Wu and {Able Software Corp}.
+\newblock {R2V}, 1999.
+\newblock URL \url{http://ablesw.com/r2v/rasvect.html}.
 
-\bibitem[\protect\astroncite{Yang et~al.}{2013}]{Yang2013}
-Yang, K., Gao, S., Li, C., and Li, Y. (2013).
+\bibitem[Yang et~al.(2013)Yang, Gao, Li, and Li]{Yang2013}
+Kaifu Yang, Shaobing Gao, Chaoyi Li, and Yongjie Li.
 \newblock {Efficient color boundary detection with color-opponent mechanisms}.
-\newblock {\em Proceedings of the IEEE Computer Society Conference on Computer
-  Vision and Pattern Recognition}, pages 2810--2817.
+\newblock \emph{Proceedings of the IEEE Computer Society Conference on Computer
+  Vision and Pattern Recognition}, pages 2810--2817, 2013.
+\newblock ISSN 10636919.
+\newblock \doi{10.1109/CVPR.2013.362}.
 
-\bibitem[\protect\astroncite{Yu and Koltun}{2015}]{Yu2015}
-Yu, F. and Koltun, V. (2015).
+\bibitem[Yu and Koltun(2015)]{Yu2015}
+Fisher Yu and Vladlen Koltun.
 \newblock {Multi-Scale Context Aggregation by Dilated Convolutions}.
+\newblock 2015.
+\newblock ISSN 00237205.
+\newblock \doi{10.16373/j.cnki.ahr.150049}.
+\newblock URL \url{http://arxiv.org/abs/1511.07122}.
 
-\bibitem[\protect\astroncite{Zangeneh et~al.}{2011}]{Zangeneh2011}
-Zangeneh, M., Omid, M., and Akram, A. (2011).
+\bibitem[Zangeneh et~al.(2011)Zangeneh, Omid, and Akram]{Zangeneh2011}
+M~Zangeneh, M~Omid, and A~Akram.
 \newblock {A comparative study between parametric and artificial neural
   networks approaches for economical assessment of potato production in Iran}.
-\newblock {\em Instituto Nacional de Investigaci{\'{o}}n y Tecnolog{\'{i}}a
+\newblock \emph{Instituto Nacional de Investigaci{\'{o}}n y Tecnolog{\'{i}}a
   Agraria y Alimentaria (INIA) Spanish Journal of Agricultural Research},
-  9(3):661--671.
+  9\penalty0 (3):\penalty0 661--671, 2011.
+\newblock ISSN 2171-9292.
+\newblock \doi{10.5424/http://dx.doi.org/10.5424/sjar/20110903-371-10}.
+\newblock URL \url{www.inia.es/sjar}.
 
-\bibitem[\protect\astroncite{Zeiler et~al.}{2011}]{Zeiler2011}
-Zeiler, M.~D., Taylor, G.~W., and Fergus, R. (2011).
+\bibitem[Zeiler et~al.(2011)Zeiler, Taylor, and Fergus]{Zeiler2011}
+Matthew~D Zeiler, Graham~W Taylor, and Rob Fergus.
 \newblock {Adaptive Deconvolutional Networks for Mid and High Level Feature
   Learning}.
-\newblock pages 2018--2025.
+\newblock pages 2018--2025, 2011.
 
 \end{thebibliography}
