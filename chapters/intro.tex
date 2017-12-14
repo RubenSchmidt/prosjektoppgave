@@ -1,10 +1,10 @@
 \chapter{Introduction}
  %Motivasjonen min for å gjøre dette her 
  Raster to vector or vectorization is a central part of what GIS specialists do. Vectorization is the task of extracting vector layers from raster maps so that they can be used for further analysis, and is often a time consuming manual process. With the vast amount of raster maps available online, we are losing valuable information because we are unable to process them automatically.
+
+ There are a couple of software products on the market today concerning the problem of converting a raster map to a vector image such as GDAL Polygonize \cite{OSGeoa} and R2V \cite{Wu1999}. Hovewer these require either very simple and well defined polygons or human intervention to successfully vectorize the raster map.
  
- Even though there are multiple software products on the market today concerning the problem of converting a raster image to a vector image such as Scan2Cad \cite{scan2cad2009} and Powertrace \cite{powertrace2016}. These products only focus on making vectorized boundaries of homogenous color areas, such as those in a logo and do not focus on the problem of digitizing raster maps with spatial data. R2V \cite{Wu1999} is the only product the author found that focus on vectorization of raster maps in GIS application. 
- 
- Problems occur when the raster images not only consists of isolated objects that are easy to distinguish but contains a spatial structure, overlapping geometries, and background layers. The multilayered nature of raster maps in addition to varying image quality makes automatic vectorization a really hard problem.
+ Problems occur when the rasters not only consists of isolated objects that are easy to distinguish but contains a spatial structure, overlapping geometries, and background layers. The multilayered nature of raster maps in addition to varying image quality makes automatic vectorization a really hard problem.
  
  Deep convolutional neural networks (DCNN), are top performers of semantic image labeling \citet{Krizhevsky2012} and can, therefore, be a possible solution to the vectorization problem. DCNN require large amounts of properly labeled training data. This is often generated manually for each case with, for instance, crowd-sourcing tools such as Amazon's Mechanical Turk \cite{Krizhevsky2012}.
  

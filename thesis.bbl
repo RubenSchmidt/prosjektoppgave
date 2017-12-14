@@ -1,4 +1,4 @@
-\begin{thebibliography}{47}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -94,17 +94,24 @@ Alberto Garcia-Garcia, Sergio Orts-Escolano, Sergiu Oprea, Victor
 \newblock \doi{10.1007/978-1-4471-4640-7}.
 \newblock URL \url{http://arxiv.org/abs/1704.06857}.
 
+\bibitem[GIMP(2017)]{GIMP2017}
+GIMP.
+\newblock {GIMP - GNU IMAGE MANIPULATION PROGRAM}, 2017.
+\newblock URL \url{https://www.gimp.org/}.
+
+\bibitem[{Giraldo Arteaga}(2013)]{GiraldoArteaga2013}
+Mauricio {Giraldo Arteaga}.
+\newblock {Historical map polygon and feature extractor}.
+\newblock \emph{Proceedings of the 1st ACM SIGSPATIAL International Workshop on
+  MapInteraction}, pages 66--71, 2013.
+\newblock \doi{10.1145/2534931.2534932}.
+
 \bibitem[He et~al.(2015)He, Zhang, Ren, and Sun]{He2015}
 Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
 \newblock {Deep Residual Learning for Image Recognition}.
 \newblock \emph{Multimedia Tools and Applications}, pages 1--17, 2015.
 \newblock ISSN 15737721.
 \newblock \doi{10.1007/s11042-017-4440-4}.
-
-\bibitem[Henderson et~al.()Henderson, Linton, Potupchik, and
-  Ostanin]{Henderson}
-Thomas~C Henderson, Trevor Linton, Sergey Potupchik, and Andrei Ostanin.
-\newblock {Automatic Segmentation of Semantic Classes in Raster Map Images}.
 
 \bibitem[Hinton et~al.(2015)Hinton, Vinyals, and Dean]{Hinton2015}
 Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
@@ -113,6 +120,11 @@ Geoffrey Hinton, Oriol Vinyals, and Jeff Dean.
 \newblock ISSN 0022-2488.
 \newblock \doi{10.1063/1.4931082}.
 \newblock URL \url{http://arxiv.org/abs/1503.02531}.
+
+\bibitem[{ImageMagick Studio LLC}(2017)]{ImageMagickStudioLLC2017}
+{ImageMagick Studio LLC}.
+\newblock {ImageMagic}, 2017.
+\newblock URL \url{http://www.imagemagick.org/script/index.php}.
 
 \bibitem[Iosifescu et~al.(2016)Iosifescu, Tsorlini, and Hurni]{Iosifescu2016}
 Ionut Iosifescu, Angeliki Tsorlini, and Lorenz Hurni.
@@ -206,6 +218,16 @@ G.~Monagan and M.~Roosli.
   Analysis and Recognition (ICDAR '93)}, pages 623--626, 1993.
 \newblock \doi{10.1109/ICDAR.1993.395659}.
 
+\bibitem[{OpenVC Team}(2017)]{OpenVCTeam2017}
+{OpenVC Team}.
+\newblock {OpenCV}, 2017.
+\newblock URL \url{https://opencv.org/}.
+
+\bibitem[OSGeo(2017)]{OSGeoa}
+OSGeo.
+\newblock {GDAL - Geospatial Data Abstraction Library}, 2017.
+\newblock URL \url{http://www.gdal.org/}.
+
 \bibitem[Papandreou(2015)]{Papandreou2015}
 George Papandreou.
 \newblock {Modeling Local and Global Deformations in Deep Learning {\_}
@@ -229,12 +251,6 @@ George Papandreou.
 Josh Patterson and Adam Gibson.
 \newblock \emph{{Deep Learning: A Practitioner's Approach}}.
 \newblock O'Reilly Media, 2017.
-
-\bibitem[PowerTRACE(2016)]{powertrace2016}
-PowerTRACE.
-\newblock {Taking Corel PowerTRACE for a Test Drive – Knowledge Base}, 2016.
-\newblock URL
-  \url{https://support.corel.com/hc/en-us/articles/215943948-Taking-Corel-PowerTRACE-for-a-Test-Drive}.
 
 \bibitem[Ren and Malik(2003)]{Ren2003}
 Xiaofeng Ren and J.~Malik.
@@ -262,12 +278,6 @@ Sara Sabour, Nicholas Frosst, and Geoffrey Hinton.
 \newblock {Dynamic Routing between Capsules}.
 \newblock \emph{Nips}, \penalty0 (Nips), 2017.
 \newblock URL \url{https://research.google.com/pubs/pub46351.html}.
-
-\bibitem[Scan2cad(2009)]{scan2cad2009}
-Scan2cad.
-\newblock {Scan2CAD in Landscape Architecture}, 2009.
-\newblock URL
-  \url{https://www.scan2cad.com/user-testimony/scan2cad-in-landscape-architecture/}.
 
 \bibitem[Simonyan and Zisserman(2014)]{Simonyan2014a}
 Karen Simonyan and Andrew Zisserman.
@@ -303,6 +313,11 @@ Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
 \newblock pages 1--9, 2014.
 \newblock ISSN 10636919.
 \newblock \doi{10.1109/CVPR.2015.7298594}.
+
+\bibitem[{The R Foundation}(2017)]{TheRFoundation2017}
+{The R Foundation}.
+\newblock {R}, 2017.
+\newblock URL \url{https://www.r-project.org/}.
 
 \bibitem[Visin et~al.(2015)Visin, Kastner, Cho, Matteucci, Courville, and
   Bengio]{Visin2015}

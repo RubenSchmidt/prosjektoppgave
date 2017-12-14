@@ -7,23 +7,15 @@ A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: chapters/intro.aux
 The style file: plainnat.bst
 Database file #1: library.bib
-Repeated entry---line 970 of file library.bib
+Repeated entry---line 1016 of file library.bib
  : @article{Karabork2008
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 982 of file library.bib
- : @misc{powertrace2016
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1000 of file library.bib
- : @misc{scan2cad2009
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1014 of file library.bib
+Repeated entry---line 1060 of file library.bib
  : @article{Iosifescu2016
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1035 of file library.bib
+Repeated entry---line 1081 of file library.bib
  : @article{Chiang2013
  :                    ,
 I'm skipping whatever remains of this entry
@@ -33,9 +25,6 @@ Warning--empty journal in Chen2016
 Warning--empty journal in Chen2017a
 Warning--empty year in Cord
 Warning--empty journal in Garcia-Garcia2017
-Warning--empty journal in Henderson
-Warning--empty year in Henderson
-Warning--empty year in Henderson
 Warning--empty journal in Hinton2015
 Warning--empty year in Li
 Warning--empty journal in Krahenbuhl2012a
@@ -48,45 +37,45 @@ Warning--empty journal in Visin2015
 Warning--empty publisher in Worboys2003
 Warning--empty journal in Yu2015
 Warning--empty journal in Zeiler2011
-You've used 47 entries,
+You've used 50 entries,
             2773 wiz_defined-function locations,
-            956 strings with 15408 characters,
-and the built_in function-call counts, 24341 in all, are:
-= -- 2259
-> -- 1516
-< -- 36
-+ -- 513
+            977 strings with 15600 characters,
+and the built_in function-call counts, 25229 in all, are:
+= -- 2351
+> -- 1517
+< -- 41
++ -- 516
 - -- 465
-* -- 2020
-:= -- 3773
-add.period$ -- 211
-call.type$ -- 47
-change.case$ -- 294
-chr.to.int$ -- 46
-cite$ -- 115
-duplicate$ -- 1010
-empty$ -- 1775
-format.name$ -- 534
-if$ -- 5094
+* -- 2047
+:= -- 3900
+add.period$ -- 222
+call.type$ -- 50
+change.case$ -- 303
+chr.to.int$ -- 49
+cite$ -- 118
+duplicate$ -- 1062
+empty$ -- 1882
+format.name$ -- 537
+if$ -- 5300
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 40
-newline$ -- 313
-num.names$ -- 188
-pop$ -- 572
+newline$ -- 330
+num.names$ -- 200
+pop$ -- 595
 preamble$ -- 1
-purify$ -- 249
+purify$ -- 255
 quote$ -- 0
-skip$ -- 860
+skip$ -- 912
 stack$ -- 0
-substring$ -- 795
-swap$ -- 129
-text.length$ -- 15
+substring$ -- 825
+swap$ -- 140
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 507
-warning$ -- 21
-while$ -- 216
+type$ -- 540
+warning$ -- 18
+while$ -- 228
 width$ -- 0
-write$ -- 724
-(There were 5 error messages)
+write$ -- 766
+(There were 3 error messages)
