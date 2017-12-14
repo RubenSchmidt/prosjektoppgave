@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.14)  14 DEC 2017 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.14)  14 DEC 2017 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1649,10 +1649,10 @@ fourier-ms.pfb><c:/texlive/2017/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb>
 7/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2017/texmf-dist/fo
 nts/type1/adobe/utopia/putri8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
 ic/cm-super/sftt1200.pfb>
-Output written on thesis.pdf (49 pages, 17107873 bytes).
+Output written on thesis.pdf (49 pages, 17108356 bytes).
 PDF statistics:
- 901 PDF objects out of 1000 (max. 8388607)
- 760 compressed objects within 8 object streams
+ 902 PDF objects out of 1000 (max. 8388607)
+ 761 compressed objects within 8 object streams
  198 named destinations out of 1000 (max. 500000)
  520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
