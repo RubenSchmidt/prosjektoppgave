@@ -7,15 +7,15 @@ A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: chapters/intro.aux
 The style file: plainnat.bst
 Database file #1: library.bib
-Repeated entry---line 1016 of file library.bib
- : @article{Karabork2008
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1060 of file library.bib
+Repeated entry---line 1004 of file library.bib
  : @article{Iosifescu2016
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1081 of file library.bib
+Repeated entry---line 1048 of file library.bib
+ : @article{Karabork2008
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1067 of file library.bib
  : @article{Chiang2013
  :                    ,
 I'm skipping whatever remains of this entry

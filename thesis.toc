@@ -41,8 +41,9 @@
 \contentsline {subsection}{\numberline {6.2.1}VecNET}{32}{subsection.6.2.1}
 \contentsline {chapter}{\numberline {7}Implementation}{34}{chapter.7}
 \contentsline {section}{\numberline {7.1}Creating the dataset}{34}{section.7.1}
-\contentsline {section}{\numberline {7.2}Deep learning frameworks}{36}{section.7.2}
-\contentsline {section}{\numberline {7.3}Computational power}{37}{section.7.3}
-\contentsline {chapter}{\numberline {8}Discussion}{38}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusion}{40}{chapter.9}
-\contentsline {chapter}{Bibliography}{40}{chapter.9}
+\contentsline {subsection}{\numberline {7.1.1}Feature matching with OpenCV}{36}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Deep learning frameworks}{38}{section.7.2}
+\contentsline {section}{\numberline {7.3}Computational power}{38}{section.7.3}
+\contentsline {chapter}{\numberline {8}Discussion}{39}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{41}{chapter.9}
+\contentsline {chapter}{Bibliography}{41}{chapter.9}

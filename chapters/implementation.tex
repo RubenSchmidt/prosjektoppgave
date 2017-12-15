@@ -14,7 +14,7 @@ As stated in \autoref{chp:motivation}, 354 out of 426 municipalities are registe
 	\label{fig:regulations}
 \end{figure}
 
-A problem with this is that the PDFs are not georeferenced, that is, we do not know the coordinates of the corners of the PDF. A procedure that connects the boundary of the vectorized zoning areas to the same area within the PDF is therefore needed. The problem can be seen in \autoref{fig:georeferencing} where we see the vectorized bounding area on the left and the scanned zoning regulation PDF on the right. A possible approach is to use a computer vision framework such as OpenCV \footnote{Link: https://opencv.org/} and its feature detection library to find the translation between the images. After the translation is found it would be possible to generate a training image the size of the PDF and with proper labels. This procedure does however add a possible source of error that has to be examined thoroughly.  
+A problem with this is that the PDFs are not georeferenced, that is, we do not know the coordinates of the corners of the PDF. A procedure that connects the boundary of the vectorized zoning areas to the same area within the PDF is therefore needed. The problem can be seen in \autoref{fig:georeferencing} where we see the vectorized bounding area on the left and the scanned zoning regulation PDF on the right. A possible approach is to use a computer vision framework such as OpenCV \footnote{Link: https://opencv.org/} and its feature detection library to find the translation between the images. After the translation is found it would be possible to generate a training image the size of the PDF and with proper labels. This procedure does however add a possible source of error that has to be examined thoroughly.
 
 \begin{figure}[H]
 	\centering
@@ -25,6 +25,25 @@ A problem with this is that the PDFs are not georeferenced, that is, we do not k
 
 Another approach is to create the dataset with a micro-tasking tool, such as Amazon Mechanical Turk \footnote{Link: https://www.mturk.com/mturk/welcome}, that allow you to outsource the work on the internet. This is for instance how the Microsoft COCO and ImageNet datasets were created \cite{Lin2014}. This can however be a very time consuming process as seen in the creation of COCO, where the segmentation required 22 worker hours per 1000 images. One could argue that the time spent creating the training data, could be used to vectorize the rest of the regulations instead of generating training data. When outsourcing the work, one would also need to do quality checks of the data and prepare the data so that it is an easy task for the participants to do, as they do not neccesarily have any knowledge or skills regarding vectorization.
 
+\subsection{Feature matching with OpenCV}
+There was done some initial testing of feature detection with OpenCV. The method tried was brute force matching with Oriented FAST and Rotated BRIEF (ORB) descriptors with greyscale images and greyscale thresholded, contoured images. Since proper testing of multiple alternatives is outside of the scope of this paper, this can not be viewed as absolute results.
+
+The results from the greyscale images can be seen in \autoref{fig:test1} and as we can see, the algorithm did not manage to find any matches. The same method was tried when using contour detection first, as seen in \autoref{fig:thresh} the results did not become better.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{fig/test1.png}
+	\caption{Vectorized bounding area on the left and scanned zoning regulation og the right.}
+	\label{fig:test1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{fig/test1-thresh.png}
+	\caption{Vectorized bounding area on the left and scanned zoning regulation og the right.}
+	\label{fig:thresh}
+\end{figure}
 
 \section{Deep learning frameworks}
 There exist multiple deep learning frameworks that could be used to implement the network such as Tensorflow \footnote{Link: https://www.tensorflow.org/}, Keras \footnote{Link: https://keras.io/}, CNTK \footnote{Link: https://github.com/Microsoft/cntk}, Caffe \footnote{Link: http://caffe.berkeleyvision.org/} or Torch \footnote{Link: http://torch.ch/}.  Every framework is different, some are written for a specific programming language others provide lower or higher levels of abstraction. One of the frameworks that provide the highest level of abstraction is Keras. Keras was developed with a focus on enabling fast experimentation and offers a simple API written in python. It has the ability to use either Tensorflow, CNTK or Theano (recently retired) as the underlying computation engine. With Keras, the creation of a DCNN can be done in a few lines of code and a wide variety of pre-trained networks and example architectures comes prebuilt with the framework. This makes it a good candidate for the framework to be used when implementing the network proposed in this paper. 
