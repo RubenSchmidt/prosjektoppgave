@@ -1,7 +1,7 @@
 \chapter{Image segmentation with Deep Learning}
 In this chapter, we will look at the problem of image segmentation and the state of the art regarding segmentation and object detection using Deep Learning. We will look at both semantic and instance segmentation.
 
-Semantic segmentation of images is one of the key problems in the field of computer vision. It is about making dense predictions inferring labels at the pixel level, assigning a class to each pixel with its enclosing object \citet{Garcia-Garcia2017}. Taking it a step further, we get to instance segmentation, where we want to associate the classes with a physical instance of an object. 
+Semantic segmentation of images is one of the key problems in the field of computer vision. It is about making dense predictions inferring labels at the pixel level, assigning a class to each pixel with its enclosing object \cite{Garcia-Garcia2017}. Taking it a step further, we get to instance segmentation, where we want to associate the classes with a physical instance of an object. 
 
 Both semantic and instance segmentation can be seen as giving us an understanding of an image at a higher level. This fine-grained control of an image greatly helps with scene understanding which is becoming more and more relevant with the increasing number of applications, such as self-driving cars and augmented reality. 
 
@@ -18,7 +18,7 @@ We can see an example in \autoref{fig:segmentation} where we see the difference 
 \section{Neural networks}
 To get a deeper understanding of how neural networks perform segmentation of images, we need to take a look at the fundations behind them and how they operate.
 
-Neural networks are a computational model that shares som properties with the animal brain in which simple units called neurons are working in parallel with no centralized control unit \citet{Patterson2017}. The primary means to long-term information storage is in the weights between the units and updating them is the primary way the network learns new information.
+Neural networks are a computational model that shares som properties with the animal brain in which simple units called neurons are working in parallel with no centralized control unit \cite{Patterson2017}. The primary means to long-term information storage is in the weights between the units and updating them is the primary way the network learns new information.
 
 A network is defined by the number of neurons, number of layers and the connections between the layers. One of the easiest architectures to understand is the feed-forward multilayer architecture viewed in \autoref{fig:feed-forward}. It is a neural network with an input layer, one or more hidden layers and an output layer. The input layers feeds input, in the form of vectors, to the rest of the network. The number of neurons at the input layer often reflects the size of the input vector.
 
@@ -73,7 +73,7 @@ a = \sigma(x) = \max(0, x)
 
 ReLUs are the state-of-the-art because of their proven usefulness in many situations and their ability to train better in practice than sigmoids. ReLU does not have the so-called problem of vanishing gradients either. Vanishing gradients is a problem that occurs when using gradient-based methods (explained in \autoref{subsection:training}) for learning, where large changes in the value of parameters from the early layers, does not have a big effect on the output, making the network lose its ability to learn. The reason for this happening is that some activation functions, such as sigmoids or tanh, forces the input space into small regions. 
 
-While removing the problem of vanishing gradients, ReLU introduces another one and that is the problem of "dying ReLU" \citet{Li}. This is a problem that occurs when a large gradient passes through the neuron causing the weight update to be so large that it causes the neuron to never activate again, that means that the gradient passing through the neuron will be forever zero.
+While removing the problem of vanishing gradients, ReLU introduces another one and that is the problem of "dying ReLU" \cite{Li}. This is a problem that occurs when a large gradient passes through the neuron causing the weight update to be so large that it causes the neuron to never activate again, that means that the gradient passing through the neuron will be forever zero.
 
 
 \subsection{Training}\label{subsection:training}
@@ -133,12 +133,12 @@ The hyperparameters are what we tune to make the network train faster and better
 \end{figure}
 The learning rate affects the amount we adjust the parameters during training. A large learning rate will make our parameters take large steps, thus saving time, but can cause us to overshoot the minimum of our loss function causing us to never find a minimum. A small learning rate causes us to take smaller steps and should help us reach the minimum, but can take a very long time to do so.
 
-Another important hyperparameter is \emph{regularization}. Overfitting often occurs when some weights have become very large and regularization is about reducing the effects of the large weights in the network. The perhaps most common form of regularization is L2 and is often implemented as the term $\frac{1}{2}\lambda w^2$ that we add to the weights \citet{Li}. Another regularization, introduced in \citet{Srivastava2014} is \emph{dropout}. Dropout works by randomly dropping some of the neurons during training causing it to train on a "thinned" version of the net. Dropout has shown  major improvements over other regularization tehniques \cite{Srivastava2014}.
+Another important hyperparameter is \emph{regularization}. Overfitting often occurs when some weights have become very large and regularization is about reducing the effects of the large weights in the network. The perhaps most common form of regularization is L2 and is often implemented as the term $\frac{1}{2}\lambda w^2$ that we add to the weights \cite{Li}. Another regularization, introduced in \citet{Srivastava2014} is \emph{dropout}. Dropout works by randomly dropping some of the neurons during training causing it to train on a "thinned" version of the net. Dropout has shown  major improvements over other regularization tehniques \cite{Srivastava2014}.
 
 \section{Convolutional neural networks}
 Fully connected multilayer neural networks take inputs as a one-dimensional vector. When using an image as input, these vectors become very large. The reason for this is that we represent each pixel in the image as one value in the vector. If we are working with color images represented with 3 channels of RGB information, each of these also needs to be mapped. For a single 200x200 image this means $200 \times 200 \times 3 = 120000$ connections in only the first layer. This illustrates how bad the fully connected neural networks scale.
 
-Convolutional neural networks, or CNNs, tackle the scaling problem by assuming inputs as images and model them as three-dimensional objects with image width, image height and color channels as the dimensions. At a high level, the architecture consist of an input layer, convolutional layers, pooling layers and fully-connected layers \citet{Patterson2017}. 
+Convolutional neural networks, or CNNs, tackle the scaling problem by assuming inputs as images and model them as three-dimensional objects with image width, image height and color channels as the dimensions. At a high level, the architecture consist of an input layer, convolutional layers, pooling layers and fully-connected layers \cite{Patterson2017}. 
 
 \subsection{Convolutional layers}
 The convolutional layers, or CONV layers, are the core building blocks of a CNN. The layers consist of a set of learnable filters also called kernels. Each of the filters are small in regards to width and height but are always the same size as the input in regards to depth. The filter is applied to the input by sliding, or \emph{convolving}, the filter accross the width and height of the input. At each position, the dot product between the filter and the input is calculated. The output is a two dimensional map that is called \emph{activation map}. This process is illustrated in \autoref{fig:convolution}. For each of the filters in the CONV layer we get such a map and stack them in the depth direction, this in turn represents the output of the layer. 
@@ -150,7 +150,7 @@ The convolutional layers, or CONV layers, are the core building blocks of a CNN.
 	\label{fig:convolution}
 \end{figure}
 
-The network will learn filters that causes the node to activate when certain visual features are seen, for instance an edge. Deeper into the network we will se filters that become more global in term of the input and recognizes nonlinear combinations of features. An example of what the filters look like in a DCNN can bee seen in \autoref{fig:filters} where we see filters learned in the first convolutional layer in an eight layer network \citet{Krizhevsky2012}.
+The network will learn filters that causes the node to activate when certain visual features are seen, for instance an edge. Deeper into the network we will se filters that become more global in term of the input and recognizes nonlinear combinations of features. An example of what the filters look like in a DCNN can bee seen in \autoref{fig:filters} where we see filters learned in the first convolutional layer in an eight layer network \cite{Krizhevsky2012}.
 
 \begin{figure}[H]
 	\centering
@@ -162,7 +162,7 @@ The network will learn filters that causes the node to activate when certain vis
 If we imagine that we freeze the filter as it is convoluted accross the input, a single step and its calculation, can be viewed as the output from a neuron. The activation map then represents a sheet of neurons with each of the neurons looking at a small part of the input, not knowing anything about the rest of the image. This feature is called \emph{local connectivity} and is an important part of how the network keeps the number of parameters smaller then a regular neural network. All the neurons in the sheet also share parameters, since it is the same filter that did the calculation. This is the concept of \emph{shared paramters} and is the other important part of how CNNs keep the number of paramters low.
 
 \subsection{Pooling layers}
-Another way to reduce the number of parameters in the network, is the use of pooling layers. Pooling layers essentially reduces the input size by downsampling the input with different pooling functions. The most common operation is \emph{max pooling} with a 2x2 filter with a stride of 2 that reduces the size by two in the height and width dimension \citet{Li}. 
+Another way to reduce the number of parameters in the network, is the use of pooling layers. Pooling layers essentially reduces the input size by downsampling the input with different pooling functions. The most common operation is \emph{max pooling} with a 2x2 filter with a stride of 2 that reduces the size by two in the height and width dimension \cite{Li}. 
 
 
 

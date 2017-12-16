@@ -70,7 +70,7 @@ Many of the previous network architectures described in \autoref{sec:important-a
 
 
 \subsection{FCN}
-Fully Convolutional Network (FCN) by \citet{Long2014} can be seen as a common forerunner for semantic segmentation with convolutional networks \citet{Garcia-Garcia2017}. FCN adopted the contemporary deep classification nets AlexNet, VGG and GoogLeNet architectures we saw in \autoref{sec:important-architectures} to make dense predictions at the pixel level. It is important to note that they not only reused the architecture but used the pre-trained classification models as a starting point. The network replaced the fully-connected layers with convolutional ones, noting that the fully-connected layers could be seen as convolutional ones with kernels (filters) that cover the entire input region. This allowed segmentation maps to be generated from images of any size. Because of all the pooling operations in CNNs, a technique called \emph{deconvolution} \citet{Zeiler2011} was used to upsample the coarse output to dense pixels. Deconvolutional layers can learn interpolation functions the same way the network learns weights. Skip connections similar to the ones we saw in ResNet, are also included to give the deeper layers higher resolution feature maps. It reached a score of 62.2 in the VOC2012 challenge. 
+Fully Convolutional Network (FCN) by \citet{Long2014} can be seen as a common forerunner for semantic segmentation with convolutional networks \cite{Garcia-Garcia2017}. FCN adopted the contemporary deep classification nets AlexNet, VGG and GoogLeNet architectures we saw in \autoref{sec:important-architectures} to make dense predictions at the pixel level. It is important to note that they not only reused the architecture but used the pre-trained classification models as a starting point. The network replaced the fully-connected layers with convolutional ones, noting that the fully-connected layers could be seen as convolutional ones with kernels (filters) that cover the entire input region. This allowed segmentation maps to be generated from images of any size. Because of all the pooling operations in CNNs, a technique called \emph{deconvolution} \cite{Zeiler2011} was used to upsample the coarse output to dense pixels. Deconvolutional layers can learn interpolation functions the same way the network learns weights. Skip connections similar to the ones we saw in ResNet, are also included to give the deeper layers higher resolution feature maps. It reached a score of 62.2 in the VOC2012 challenge. 
 
 
 \subsection{SegNet}
@@ -96,7 +96,7 @@ A problem with pooling layers is that they remove more context and resolution fr
 
 
 \subsection{DeepLab (v1 \& v2)}
-DeepLab v1 (2014) \citet{Chen2014} and DeepLab v2 (2016) \citet{Chen2016} both used dilated convolutions though they refer to them as \emph{atrous convolutions}. They use fully-connected Conditional Random Fields (CRF) to capture fine-grained details in images as proposed by \citet{Krahenbuhl2012a}. CRF can be used to combine the class scores from deep CNNs with the low-level information captured by the local interactions of pixels and edges \citet{Chen2014} and is used in DeepLab v1 as a post-processing method. As we can see in \autoref{fig:deeplab1} the effect of using CRF is significant in regards to detecting details in the image. DeepLab v1 used VGG-16 as a starting point for their architecture and got a score of 71.6 at VOC2012 beating the runner-up by a margin of 7.2\%. 
+DeepLab v1 (2014) \cite{Chen2014} and DeepLab v2 (2016) \cite{Chen2016} both used dilated convolutions though they refer to them as \emph{atrous convolutions}. They use fully-connected Conditional Random Fields (CRF) to capture fine-grained details in images as proposed by \citet{Krahenbuhl2012a}. CRF can be used to combine the class scores from deep CNNs with the low-level information captured by the local interactions of pixels and edges \cite{Chen2014} and is used in DeepLab v1 as a post-processing method. As we can see in \autoref{fig:deeplab1} the effect of using CRF is significant in regards to detecting details in the image. DeepLab v1 used VGG-16 as a starting point for their architecture and got a score of 71.6 at VOC2012 beating the runner-up by a margin of 7.2\%. 
 
 \begin{figure}[H]
 	\centering
@@ -106,7 +106,7 @@ DeepLab v1 (2014) \citet{Chen2014} and DeepLab v2 (2016) \citet{Chen2016} both u
 \end{figure}
 
 
-Deep CNNs can represent different object scales by training on datasets that contain objects of varying size. However explicitly accounting for scale can improve the networks ability to handle large and small objects \citet{Papandreou2015}. DeepLab v2 introduces a new technique to handle multivariate scale, called \emph{atrous spatial pyramid pooling} (ASPP). It uses multiple parallel atrous convolutional layers with different sampling rate/direction to improve the networks ability to deal with objects of different scale. DeepLab v2s best architecture used a pre-trained ResNet-101 (ResNet seen in \autoref{subsection:resnet}, that has 101 layers) with atrous convolutions, ASSP, and CRF that got a score of 79.7 at VOC2012.
+Deep CNNs can represent different object scales by training on datasets that contain objects of varying size. However explicitly accounting for scale can improve the networks ability to handle large and small objects \cite{Papandreou2015}. DeepLab v2 introduces a new technique to handle multivariate scale, called \emph{atrous spatial pyramid pooling} (ASPP). It uses multiple parallel atrous convolutional layers with different sampling rate/direction to improve the networks ability to deal with objects of different scale. DeepLab v2s best architecture used a pre-trained ResNet-101 (ResNet seen in \autoref{subsection:resnet}, that has 101 layers) with atrous convolutions, ASSP, and CRF that got a score of 79.7 at VOC2012.
 
 
 \subsection{DeepLab v3}
@@ -126,7 +126,7 @@ Both methods were tested, but the new ASSP performed better and was selected for
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{fig/cascading.png}
-	\captionsource{Cascaded modules.}{\citeauthor{Chen2017a}\cite{Chen2017a}}
+	\captionsource{Cascaded modules.}{\citet{Chen2017a}}
 	\label{fig:cascading}
 \end{figure}
 
