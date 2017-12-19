@@ -14,12 +14,12 @@ A comparison of the formats can be seen in \autoref{fig:rastervsvector}, where w
 	\label{fig:rastervsvector}
 \end{figure}
 
-There are multiple reasons for storing data in vector format: The geographic accuracy is higher since it is not dependent on grid size, it allows for efficient encoding of topology, an important aspect when doing analysis that utilizes topologic relations, such as proximity and network analysis and it allows for storage of attributes in the data, giving us another dimension of information and the storage size is smaller \cite{Dharmaraj2005}.
+There are multiple reasons for storing data in vector format: The geographic accuracy is higher since it is not dependent on grid size, it allows for efficient encoding of topology, an important aspect when doing analysis that utilizes topologic relations, such as proximity and network analysis, it allows for storage of attributes in the data, giving us another dimension of information, and the storage size is smaller \cite{Dharmaraj2005}.
 
 There are multiple different techniques for vectorization. We will now look at some of the well-known ones.
 
 \section{Hough Transform}
-The Hough Transform can isolate features of particular shape within images. The user must describe the desired feature in a parametric form, therefore the most common application of Hough Transform is to detect regular curves such as lines and circles. The technique is known to be tolerant of image noise and gaps in the feature boundary.
+The Hough Transform can isolate features of particular shape within images \cite{Dori1997}. The user must describe the desired feature in a parametric form, therefore the most common application of Hough Transform is to detect regular curves such as lines and circles. The technique is known to be tolerant of image noise and gaps in the feature boundary.
 
 Hough Transform works by transforming each of the pixels into a straight line in a parameter space. The parameter space is described by the parametric form of features we are looking for. In the simplest case of a Hugh Transform, we want to detect straight lines. For this the normal form $r = x cos(\theta) + y sin(\phi)$ is used to represent the lines. When iterating the pixels in the image the algorithm looks if there is enough evidence that there is a straight line at that pixel, if there is, it calculates the parameters $\theta$ and $\phi$ at that point and adds it to an array. The array accumulates all the points that belong to each specific $\theta$ and $\phi$, thus the more points that are on the same parameters the more likely they belong to a line. The algorithm visits each pixel one time and is therefore linear with the number of pixels in the image.
 

@@ -4,7 +4,7 @@ Image segmentation has come a long way on images of normal everyday objects with
 \section{Non-artifical intelligence methods}
 
 \subsection{Color image segmentation in historical topographic maps based on homogeneity}
-\citet{Leyk2010} presents a color image segmentation of raster maps from the \nth{19} century suffering from poor quality with a clustering technique using the local image plane, frequency domain an color space. The goal of the color image segmentation is to reduce the color values to fit the original colors used when printing the map. The method managed to segment lines, symbols and areas that belong to different color layers, however, there were still some minor classification errors that had to be solved manually. Results from the color segmentation can be seen in \autoref{fig:leyk2010}. Note that the output is not a raster image, but a raster image with a lower number of colors.
+\citet{Leyk2010} presents a color image segmentation of raster maps from the \nth{19} century suffering from poor quality with a clustering technique using the local image plane, frequency domain an color space. The goal of the color image segmentation is to reduce the color values to fit the original colors used when printing the map. The method managed to segment lines, symbols and areas that belong to different color layers, however, there were still some minor classification errors that had to be solved manually. Results from the color segmentation can be seen in \autoref{fig:leyk2010}. Note that the output is not vector data, but a raster image with a lower number of colors.
 
 \begin{figure}[H]
     \centering
@@ -14,7 +14,7 @@ Image segmentation has come a long way on images of normal everyday objects with
 \end{figure}
 
 \subsection{Towards a comprehensive methodology for automatic vectorization of raster historical maps}
-\citet{Iosifescu2016} use open-source solutions to vectorize historical maps from the \nth{19} century. Their procedure consists of five steps: Scanning of the map, georeferencing the map, pre-processing of an image to clean artifacts, automatic vectorization, automatic cleaning of the results. The authors note that the pre-processing step and scan quality are the most crucial for the performance of the vectorization and have to be customized for each set of raster maps. The pre-processing consist of RGB channel processing, conversion to binary images and cleaning. By processing the RGB channels in the image, different features on the map can be highlighted.
+\citet{Iosifescu2016} use open-source solutions to vectorize historical maps from the \nth{19} century. Their procedure consists of five steps: Scanning of the map, georeferencing the map, pre-processing of the image to clean artifacts, automatic vectorization, automatic cleaning of the results. The authors note that the pre-processing step and scan quality are the most crucial for the performance of the vectorization and have to be customized for each set of raster maps. The pre-processing consist of RGB channel processing, conversion to binary images and cleaning. By processing the RGB channels in the image, different features on the map can be highlighted.
 
 The pre-processed image is then converted to vector format with Geospatial Data Abstraction Library \cite{OSGeoa} (GDAL)'s polygonize and contour methods. The results are acceptable when taking the quality of the maps into consideration as seen in \autoref{fig:iosifescu2016}. 
 

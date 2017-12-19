@@ -96,7 +96,7 @@ A problem with pooling layers is that they remove more context and resolution fr
 
 
 \subsection{DeepLab (v1 \& v2)}
-DeepLab v1 (2014) \cite{Chen2014} and DeepLab v2 (2016) \cite{Chen2016} both used dilated convolutions though they refer to them as \emph{atrous convolutions}. They use fully-connected Conditional Random Fields (CRF) to capture fine-grained details in images as proposed by \citet{Krahenbuhl2012a}. CRF can be used to combine the class scores from deep CNN with the low-level information captured by the local interactions of pixels and edges \cite{Chen2014} and is used in DeepLab v1 as a post-processing method. As we can see in \autoref{fig:deeplab1} the effect of using CRF is significant in regards to detecting details in the image. DeepLab v1 used VGG-16 as a starting point for their architecture and got a score of 71.6 at VOC2012 beating the runner-up by a margin of 7.2\%. 
+DeepLab v1 (2014) \cite{Chen2014} and DeepLab v2 (2016) \cite{Chen2016} both used dilated convolutions though they refer to them as \emph{atrous convolutions}. They use fully-connected Conditional Random Fields (CRF) to capture fine-grained details in images as proposed by \citet{Krahenbuhl2012a}. CRF can be used to combine the class scores from DCNN with the low-level information captured by the local interactions of pixels and edges \cite{Chen2014} and is used in DeepLab v1 as a post-processing method. As we can see in \autoref{fig:deeplab1} the effect of using CRF is significant in regards to detecting details in the image. DeepLab v1 used VGG-16 as a starting point for their architecture and got a score of 71.6 at VOC2012 beating the runner-up by a margin of 7.2\%. 
 
 \begin{figure}[H]
     \centering
@@ -106,7 +106,7 @@ DeepLab v1 (2014) \cite{Chen2014} and DeepLab v2 (2016) \cite{Chen2016} both use
 \end{figure}
 
 
-Deep CNN can represent different object scales by training on datasets that contain objects of varying size. However explicitly accounting for scale can improve the networks ability to handle large and small objects \cite{Papandreou2015}. DeepLab v2 introduces a new technique to handle multivariate scale, called \emph{atrous spatial pyramid pooling} (ASPP). It uses multiple parallel atrous convolutional layers with different sampling rate/direction to improve the networks ability to deal with objects of different scale. DeepLab v2s best architecture used a pre-trained ResNet-101 (ResNet seen in \autoref{subsection:resnet}, that has 101 layers) with atrous convolutions, ASSP, and CRF that got a score of 79.7 at VOC2012.
+DCNN can represent different object scales by training on datasets that contain objects of varying size. However explicitly accounting for scale can improve the networks ability to handle large and small objects \cite{Papandreou2015}. DeepLab v2 introduces a new technique to handle multivariate scale, called \emph{atrous spatial pyramid pooling} (ASPP). It uses multiple parallel atrous convolutional layers with different sampling rate/direction to improve the networks ability to deal with objects of different scale. DeepLab v2s best architecture used a pre-trained ResNet-101 (ResNet seen in \autoref{subsection:resnet}, that has 101 layers) with atrous convolutions, ASSP, and CRF that got a score of 79.7 at VOC2012.
 
 
 \subsection{DeepLab v3}
@@ -121,7 +121,7 @@ In DeepLab v3 ,\citet{Chen2017a} introduce an improved model of ASSP that involv
 
 \emph{Cascading modules} was also proposed. A technique where the last ResNet block is duplicated multiple times and modified with atrous convolution Each block consists of three atrous convolution layers as seen in \autoref{fig:cascading}.
 
-Both methods were tested, but the new ASSP performed better and was selected for use in the final model. Using a ResNet-101 pre-trained on ImageNet dataset, DeepLabv3 reached a performance of 85.7 on VOC2012. Using a ResNet-101 pre-trained on both ImageNet and JFT-300M dataset (internal dataset at Google with over 300M images \cite{Hinton2015}\cite{Sun2017}), DeepLabv3-JFT got a score of 86.9 on VOC2012.
+Both methods were tested, but the new ASSP performed better and was selected for use in the final model. Using a ResNet-101 pre-trained on ImageNet dataset, DeepLabv3 reached a performance of 85.7 on VOC2012. Using a ResNet-101 pre-trained on both ImageNet and JFT-300M dataset (internal dataset at Google with over 300M images \cite{Hinton2015}\cite{Sun2017}), DeepLabv3-JFT got a score of 86.9 on VOC2012 and became the leader of the competition.
 
 \begin{figure}[H]
     \centering
