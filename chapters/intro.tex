@@ -1,11 +1,11 @@
 \chapter{Introduction}
- %Motivasjonen min for å gjøre dette her 
- Raster to vector or vectorization is a central part of what GIS specialists do. Vectorization is the task of extracting vector layers from raster maps so that they can be used for further analysis, and is often a time consuming manual process. With the vast amount of raster maps available online, we are losing valuable information because we are unable to process them automatically.
+Vectorization is the task of extracting vector layers from raster maps so that they can be used for further analysis, and is often a time consuming manual process \cite{Worboys2003}. With the vast amount of raster maps available online, we are losing valuable information since we are unable to process them automatically.
 
- There are a couple of software products on the market today concerning the problem of converting a raster map to a vector image such as GDAL Polygonize \cite{OSGeoa} and R2V \cite{Wu1999}. Hovewer these require either very simple and well defined polygons or human intervention to successfully vectorize the raster map.
+ There are a couple of software products on the market today concerning the problem of converting a raster map to a vector image such as GDAL Polygonize \cite{OSGeoa} and R2V \cite{Wu1999}. However, these require either very simple and well-defined polygons or human intervention to successfully vectorize the raster map.
  
- Problems occur when the rasters not only consists of isolated objects that are easy to distinguish but contains a spatial structure, overlapping geometries, and background layers. The multilayered nature of raster maps in addition to varying image quality makes automatic vectorization a really hard problem.
+ Problems occur when the rasters not only consists of isolated objects that are easy to distinguish but contains a spatial structure, overlapping geometries, and background layers. The multilayered nature of raster maps in addition to varying image quality makes automatic vectorization a hard problem to solve.
  
  Deep convolutional neural networks (DCNN), are top performers of semantic image labeling \cite{Krizhevsky2012} and can, therefore, be a possible solution to the vectorization problem. DCNN require large amounts of properly labeled training data. This is often generated manually for each case with, for instance, crowd-sourcing tools such as Amazon's Mechanical Turk \cite{Krizhevsky2012}.
  
- In this paper, we will look at the state of the art in vectorization of raster maps and feature extraction with DCNN, look at the data needed to train the networks sufficiently and investigate the considerations one would have to take into account when implementing a network.
+ In this paper, we will look at the state of the art in vectorization of raster maps and image segmentation with DCNN, look at the data needed to train the networks sufficiently and investigate the considerations one would have to take into account when implementing a network.
+

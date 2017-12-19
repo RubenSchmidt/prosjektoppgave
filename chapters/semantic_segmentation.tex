@@ -1,11 +1,11 @@
 \chapter{Image segmentation with Deep Learning}
 In this chapter, we will look at the problem of image segmentation and the state of the art regarding segmentation and object detection using Deep Learning. We will look at both semantic and instance segmentation.
 
-Semantic segmentation of images is one of the key problems in the field of computer vision. It is about making dense predictions inferring labels at the pixel level, assigning a class to each pixel with its enclosing object \cite{Garcia-Garcia2017}. Taking it a step further, we get to instance segmentation, where we want to associate the classes with a physical instance of an object. 
+Semantic segmentation of images is one of the key problems in the field of computer vision. It is about making dense predictions inferring labels at the pixel level, assigning a class to each pixel with its enclosing object \cite{Garcia-Garcia2017}. At an even deeper level of understanding, we get to instance segmentation, where we want to associate the classes with a physical instance of an object. 
 
 Both semantic and instance segmentation can be seen as giving us an understanding of an image at a higher level. This fine-grained control of an image greatly helps with scene understanding which is becoming more and more relevant with the increasing number of applications, such as self-driving cars and augmented reality. 
 
-We can see an example in \autoref{fig:segmentation} where we see the difference between the two approaches. In the middle photo, all the chairs have the same classification, as chairs. In the right photo, we see that the chairs now are classified as chairs, but with a different class for each of them. We can see that instance segmentation is the combination of both object detection and semantic segmentation.
+We can see an example of the differences between semantic and instance segmentation in \autoref{fig:segmentation}. In the middle photo, all the chairs have the same classification, as chairs. In the right photo, we see that the chairs now are classified as chairs, but with a different class for each of them. We can see that instance segmentation is the combination of both object detection and semantic segmentation.
 
 \begin{figure}[H]
     \centering
@@ -30,7 +30,7 @@ A network is defined by the number of neurons, number of layers and the connecti
 \end{figure}
 
 \subsection{Artificial neurons}
-Each layer consist of one or more artificial neurons also called nodes. An artificial neuron is a mathematical representation of a biological neuron and consist of inputs with weights and bias, a transfer function and an activation function. The weights are what scales, either amplifying or decreasing, the input to the node. The bias is a constant scalar value per layer that is added to ensure that at least some of the nodes in the layer are activated, that is, forwarding a non-zero value to the next layer. The transfer function takes the weighted sum of the input variables and transfers it to the activation function. The activation functions are scalar-to-scalar functions that define the output of the node based in the inputs, weights, and bias. A model of an artificial neuron compared to a real one, can be seen in \autoref{fig:artificial-neuron}. 
+Each layer in the network consist of one or more artificial neurons also called nodes. An artificial neuron is a mathematical representation of a biological neuron and consist of inputs with weights and bias, a transfer function and an activation function. The weights are what scales, either amplifying or decreasing, the input to the node. The bias is a constant scalar value per layer that is added to ensure that at least some of the nodes in the layer are activated, that is, forwarding a non-zero value to the next layer. The transfer function takes the weighted sum of the input variables and transfers it to the activation function. The activation functions are scalar-to-scalar functions that define the output of the node based in the inputs, weights, and bias. A model of an artificial neuron compared to a real one, can be seen in \autoref{fig:artificial-neuron}. 
 
 
 \begin{figure}[H]
@@ -77,7 +77,7 @@ While removing the problem of vanishing gradients, ReLU introduces another one a
 
 
 \subsection{Training}\label{subsection:training}
-There are different forms of learning such as supervised, where we show the network what the correct answer is. Unsupervised, where the network itself decides how to label the data and reinforcement learning, where the network does not get to know the answer but learns by reward or punishment. We will only focus on supervised learning in this paper as this is the type of learning we use when doing image segmentation.
+There are different forms of learning: Supervised learning where we show the network what the correct answer is, unsupervised learning where the network itself decides how to label the data, and reinforcement learning where the network does not get to know the answer but learns by reward or punishment. We will only focus on supervised learning in this paper as this is the type of learning we use when doing image segmentation.
 
 In supervised learning, the network learns by training on a set of inputs and desired outputs. As inputs are passed through the network and outputs are generated, it learns by adjusting weights and biases causing some neurons to become smaller and some to become larger. The larger a neuron's weight is, the more it affects the network and vice versa.
 
